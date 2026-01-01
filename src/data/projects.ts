@@ -147,8 +147,11 @@ export const projectsData: Project[] = [
       { name: "Bài 3 - Giải thích khái niệm.docx", url: "/documents/project3-doc1.docx" },
       { name: "Bài 3 - Tóm tắt tài liệu.docx", url: "/documents/project3-doc2.docx" },
       { name: "Bài 3 - Tạo câu hỏi ôn tập.docx", url: "/documents/project3-doc3.docx" },
-      { name: "Bài 3 - Chấm chéo.docx", url: "/documents/project3-doc4.docx" },
     ],
+    document: {
+      name: "Bài 3 - Chấm chéo.docx",
+      url: "/documents/project3-doc4.docx",
+    },
     analysis: {
       strengths: [
         "Xác định rõ chủ đề nghiên cứu và mục tiêu học thuật",

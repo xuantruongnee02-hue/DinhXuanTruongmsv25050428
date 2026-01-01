@@ -164,10 +164,11 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
               </div>
             )}
 
-            {/* Document Upload Slots */}
-            <div className="space-y-3">
-              {project.documents && project.documents.length > 0 ? (
-                project.documents.map((doc, idx) => (
+            {/* Evidence Documents */}
+            {project.documents && project.documents.length > 0 && (
+              <div className="space-y-3 mb-4">
+                <p className="font-medium text-foreground text-sm">📁 Tài liệu minh chứng:</p>
+                {project.documents.map((doc, idx) => (
                   <a
                     key={idx}
                     href={doc.url}
@@ -184,35 +185,44 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
                       <p className="text-sm text-muted-foreground">Nhấn để tải xuống và mở bằng Word</p>
                     </div>
                   </a>
-                ))
-              ) : project.document ? (
+                ))}
+              </div>
+            )}
+
+            {/* Main Document (Product) */}
+            {project.document && (
+              <div className="space-y-3">
+                <p className="font-medium text-foreground text-sm">📄 Sản phẩm:</p>
                 <a
                   href={project.document.url}
                   download={project.document.name}
-                  className="p-4 rounded-lg bg-accent border border-border flex items-center gap-4 hover:bg-accent/80 transition-colors cursor-pointer group"
+                  className="p-4 rounded-lg bg-chart-2/10 border border-chart-2/20 flex items-center gap-4 hover:bg-chart-2/20 transition-colors cursor-pointer group"
                 >
-                  <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
-                    <FileText className="w-6 h-6 text-primary" />
+                  <div className="w-12 h-12 rounded-lg bg-chart-2/20 flex items-center justify-center flex-shrink-0">
+                    <FileText className="w-6 h-6 text-chart-2" />
                   </div>
                   <div className="flex-1">
-                    <p className="font-medium text-foreground group-hover:text-primary transition-colors">
+                    <p className="font-medium text-foreground group-hover:text-chart-2 transition-colors">
                       {project.document.name}
                     </p>
                     <p className="text-sm text-muted-foreground">Nhấn để tải xuống và mở bằng Word</p>
                   </div>
                 </a>
-              ) : (
-                <div className="p-4 rounded-lg bg-accent border-2 border-dashed border-border flex items-center gap-4 hover:border-primary/50 transition-colors cursor-pointer">
-                  <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
-                    <FileText className="w-6 h-6 text-primary" />
-                  </div>
-                  <div className="flex-1">
-                    <p className="font-medium text-foreground">Tệp tài liệu (.docx)</p>
-                    <p className="text-sm text-muted-foreground">Tải lên file Word để minh chứng</p>
-                  </div>
+              </div>
+            )}
+
+            {/* Empty state when no documents */}
+            {!project.documents?.length && !project.document && !project.evidence?.length && (
+              <div className="p-4 rounded-lg bg-accent border-2 border-dashed border-border flex items-center gap-4 hover:border-primary/50 transition-colors cursor-pointer">
+                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+                  <FileText className="w-6 h-6 text-primary" />
                 </div>
-              )}
-            </div>
+                <div className="flex-1">
+                  <p className="font-medium text-foreground">Tệp tài liệu (.docx)</p>
+                  <p className="text-sm text-muted-foreground">Tải lên file Word để minh chứng</p>
+                </div>
+              </div>
+            )}
           </div>
 
           {/* Analysis Section */}
