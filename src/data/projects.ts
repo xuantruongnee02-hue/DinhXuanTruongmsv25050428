@@ -68,7 +68,7 @@ export const projectsData: Project[] = [
     chapter: "Chương 2",
     title: "Khai thác dữ liệu và thông tin",
     summary:
-      "[Tóm tắt 3-4 dòng: Bài tập giúp phát triển kỹ năng tìm kiếm, đánh giá và sử dụng thông tin từ nhiều nguồn khác nhau. Học cách phân biệt thông tin đáng tin cậy và ứng dụng trong học tập.]",
+      "Bài tập giúp tôi rèn luyện kỹ năng tìm kiếm, chọn lọc và khai thác thông tin từ các nguồn trực tuyến. Tôi thực hành so sánh dữ liệu từ các công cụ tìm kiếm khác nhau để đánh giá độ tin cậy và giá trị sử dụng của thông tin. Qua đó, tôi hình thành thói quen tiếp cận dữ liệu một cách có hệ thống và có trách nhiệm trong học tập.",
     objectives: [
       "[Mục tiêu 1: Biết cách tìm kiếm thông tin hiệu quả]",
       "[Mục tiêu 2: Đánh giá độ tin cậy của nguồn thông tin]",
