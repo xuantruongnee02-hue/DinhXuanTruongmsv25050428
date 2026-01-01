@@ -128,9 +128,9 @@ export const projectsData: Project[] = [
     summary:
       "Bài tập giúp tôi hiểu các khái niệm cơ bản về trí tuệ nhân tạo, cách AI hoạt động và những lĩnh vực ứng dụng phổ biến trong đời sống. Thông qua việc tìm hiểu và tổng hợp thông tin từ nhiều nguồn, tôi nhận thức rõ hơn về tiềm năng cũng như những thách thức khi sử dụng AI. Qua đó, tôi hình thành cái nhìn tổng quan và có định hướng đúng đắn trong việc tiếp cận công nghệ AI.",
     objectives: [
-      "[Mục tiêu 1: Hiểu khái niệm cơ bản về AI]",
-      "[Mục tiêu 2: Nhận biết các ứng dụng AI trong đời sống]",
-      "[Mục tiêu 3: Phát triển tư duy phản biện về AI]",
+      "Mục tiêu 1: Biết viết câu prompt AI hiệu quả, không lan man, mơ hồ",
+      "Mục tiêu 2: Nhận biết các ứng dụng AI trong đời sống",
+      "Mục tiêu 3: Phát triển tư duy phản biện về AI",
     ],
     process: {
       steps: [
