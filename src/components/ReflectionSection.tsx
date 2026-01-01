@@ -67,7 +67,7 @@ const ReflectionSection = () => {
             <blockquote className="text-xl md:text-2xl font-medium text-foreground mb-4 italic">
               "Công nghệ chỉ thực sự có giá trị khi người học biết kiểm soát nó; AI không thay tôi học, mà buộc tôi phải học đúng cách hơn. Làm chủ được môi trường AI."
             </blockquote>
-            <p className="text-muted-foreground">— [Tên của bạn]</p>
+            <p className="text-muted-foreground">— Xuân Trường Dev</p>
           </CardContent>
         </Card>
       </div>
