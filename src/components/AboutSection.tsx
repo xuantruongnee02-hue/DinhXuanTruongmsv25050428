@@ -28,7 +28,7 @@ const AboutSection = () => {
               </div>
               
               <div className="text-center mb-6">
-                <h3 className="text-2xl font-bold text-foreground mb-2">[Họ và Tên của bạn]</h3>
+                <h3 className="font-bold text-foreground mb-2 text-lg">Họ và Tên: Đinh Xuân Trường</h3>
                 <p className="text-primary font-medium">[Ngành học của bạn]</p>
                 <p className="text-muted-foreground text-sm mt-1">[Trường / Khoa]</p>
               </div>
