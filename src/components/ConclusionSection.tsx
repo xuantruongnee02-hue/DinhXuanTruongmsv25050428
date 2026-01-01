@@ -143,7 +143,7 @@ const ConclusionSection = () => {
               Website này được xây dựng với mục tiêu học tập nghiêm túc. 
               Mọi nội dung do tôi tự viết và tôi chịu trách nhiệm hoàn toàn về tính liêm chính học thuật.
               <br /><br />
-              <span className="font-medium">[Họ và tên của bạn]</span>
+              <span className="font-medium">Xuân Trường Dev</span>
             </p>
           </div>
         </div>
