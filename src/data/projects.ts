@@ -244,7 +244,7 @@ export const projectsData: Project[] = [
     chapter: "Chương 5",
     title: "Sáng tạo nội dung số",
     summary:
-      "[Tóm tắt 3-4 dòng: Thực hành tạo các sản phẩm số sáng tạo như infographic, video, poster. Áp dụng nguyên tắc thiết kế và kể chuyện bằng hình ảnh.]",
+      "Bài tập tập trung vào việc ứng dụng các công cụ AI tạo sinh trong thiết kế poster truyền thông môi trường với thông điệp \"Reduce Plastic, Restore Nature\". Thông qua việc kết hợp ChatGPT, DALL·E 3 và Canva AI, tôi thực hiện toàn bộ quy trình sáng tạo từ xây dựng ý tưởng, tạo hình minh họa đến hoàn thiện bố cục poster. Bài tập giúp tôi hiểu rõ vai trò của AI trong sáng tạo nội dung số, đồng thời nhận thức được tầm quan trọng của sự kiểm soát, lựa chọn và chỉnh sửa của con người trong sản phẩm cuối cùng.",
     objectives: [
       "[Mục tiêu 1: Sử dụng công cụ thiết kế số]",
       "[Mục tiêu 2: Áp dụng nguyên tắc thiết kế cơ bản]",
