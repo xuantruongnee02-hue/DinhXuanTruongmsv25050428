@@ -6,7 +6,7 @@ export const projectsData: Project[] = [
     chapter: "Chương 1",
     title: "Máy tính và thiết bị ngoại vi",
     summary:
-      "[Tóm tắt 3-4 dòng: Mô tả ngắn gọn bài tập làm gì và đạt được điều gì. Ví dụ: Tìm hiểu về các thành phần cơ bản của máy tính, cách kết nối và sử dụng thiết bị ngoại vi một cách hiệu quả trong học tập và làm việc.]",
+      "Bài tập giúp tôi hình thành thói quen tổ chức và lưu trữ tài liệu học tập một cách khoa học. Thông qua việc sắp xếp thư mục và đặt tên file hợp lý, tôi dễ dàng tìm kiếm và quản lý dữ liệu hơn. Kỹ năng này hỗ trợ tôi học tập hiệu quả và tiết kiệm thời gian.",
     objectives: [
       "[Mục tiêu 1: Hiểu được cấu tạo và chức năng của các thành phần máy tính]",
       "[Mục tiêu 2: Biết cách kết nối và sử dụng thiết bị ngoại vi]",
