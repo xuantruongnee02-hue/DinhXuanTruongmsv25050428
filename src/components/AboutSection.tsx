@@ -38,14 +38,8 @@ const AboutSection = () => {
                   <Heart className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-medium">Sở thích</p>
-                    <div className="text-sm text-muted-foreground space-y-1">
-                      <p>Tìm hiểu và trải nghiệm các công cụ AI hỗ trợ học tập và sáng tạo nội dung.</p>
-                      <p>Chỉnh sửa video, thiết kế hình ảnh cơ bản bằng các nền tảng số.</p>
-                      <p>Khám phá cách tìm kiếm và chọn lọc thông tin học thuật trên Internet.</p>
-                      <p>Xây dựng và cá nhân hóa website/portfolio cá nhân.</p>
-                      <p>Ứng dụng công nghệ số để quản lý thời gian và công việc hiệu quả hơn.</p>
-                      <p>Quan tâm đến cách công nghệ và AI ảnh hưởng đến học tập và đời sống hiện đại.</p>
-                    </div>
+                    <p className="text-sm text-muted-foreground">
+                  </p>
                   </div>
                 </div>
 
