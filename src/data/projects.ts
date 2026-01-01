@@ -271,6 +271,7 @@ export const projectsData: Project[] = [
     evidence: [project5Img1, project5Img2, project5Img3, project5Img4],
     documents: [
       { name: "Bài 5 - Chấm chéo", url: "/documents/project5-doc.docx" },
+      { name: "Video AI tạo", url: "https://drive.google.com/file/d/1_gTJbVBro6pVNq5UcMhIltHqoUQJf675/view?usp=sharing" },
     ],
     analysis: {
       strengths: [
