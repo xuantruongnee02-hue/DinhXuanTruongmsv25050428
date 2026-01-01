@@ -1,16 +1,21 @@
 import { User, Target, Lightbulb, Heart, Code, Rocket } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
+import { useScrollAnimation } from "@/hooks/use-scroll-animation";
+
 const AboutSection = () => {
-  return <section id="about" className="py-20 md:py-32 bg-background">
-      <div className="container mx-auto px-4">
+  const { ref, isVisible } = useScrollAnimation(0.1);
+
+  return (
+    <section id="about" className="py-20 md:py-32 bg-background">
+      <div className="container mx-auto px-4" ref={ref}>
         {/* Section Header */}
-        <div className="text-center mb-16">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary mb-4 animate-fade-in">
+        <div className={`text-center mb-16 transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary mb-4">
             <User className="w-4 h-4" />
             <span className="text-sm font-medium">Giới thiệu bản thân</span>
           </div>
-          <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4 animate-fade-in-up">About me</h2>
-          <p className="text-muted-foreground max-w-2xl mx-auto animate-fade-in-up animation-delay-100">
+          <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4">About me</h2>
+          <p className="text-muted-foreground max-w-2xl mx-auto">
             Chào mừng bạn đến với portfolio của tôi – nơi ghi lại hành trình học tập và phát triển trong lĩnh vực công nghệ số
           </p>
         </div>
@@ -18,7 +23,7 @@ const AboutSection = () => {
         {/* Main Content Grid */}
         <div className="grid lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {/* Profile Card */}
-          <Card className="lg:row-span-2 bg-card border-border shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in-up animation-delay-200">
+          <Card className={`lg:row-span-2 bg-card border-border shadow-lg hover:shadow-xl transition-all duration-700 delay-100 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
             <CardContent className="p-8">
               {/* Avatar Placeholder */}
               <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-br from-primary to-chart-1 flex items-center justify-center">
@@ -64,7 +69,7 @@ const AboutSection = () => {
           </Card>
 
           {/* Goals Card */}
-          <Card className="bg-card border-border shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in-up animation-delay-300">
+          <Card className={`bg-card border-border shadow-lg hover:shadow-xl transition-all duration-700 delay-200 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
             <CardContent className="p-8">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center">
@@ -90,7 +95,7 @@ const AboutSection = () => {
           </Card>
 
           {/* Portfolio Purpose Card */}
-          <Card className="bg-card border-border shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in-up animation-delay-400">
+          <Card className={`bg-card border-border shadow-lg hover:shadow-xl transition-all duration-700 delay-300 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
             <CardContent className="p-8">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-12 h-12 rounded-xl bg-chart-1/10 flex items-center justify-center">
@@ -116,7 +121,7 @@ const AboutSection = () => {
           </Card>
 
           {/* Personal Statement */}
-          <Card className="lg:col-span-2 bg-gradient-to-br from-primary/5 to-chart-1/5 border-primary/20 shadow-lg animate-fade-in-up animation-delay-500">
+          <Card className={`lg:col-span-2 bg-gradient-to-br from-primary/5 to-chart-1/5 border-primary/20 shadow-lg transition-all duration-700 delay-400 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
             <CardContent className="p-8">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center">
@@ -136,6 +141,8 @@ const AboutSection = () => {
           </Card>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default AboutSection;
