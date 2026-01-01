@@ -48,7 +48,7 @@ const AboutSection = () => {
                   <div>
                     <p className="font-medium">Kỹ năng quan tâm</p>
                     <p className="text-sm text-muted-foreground">
-                      dmm
+                      Kĩ năng viết code, Tool, Dev
                     </p>
                   </div>
                 </div>
