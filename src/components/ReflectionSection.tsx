@@ -3,7 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 const reflectionItems = [{
   icon: TrendingUp,
   title: "Thay đổi lớn nhất trong cách học",
-  content: "[Viết về những thay đổi quan trọng nhất trong phương pháp học tập của bạn sau khi học môn này. Ví dụ: Cách bạn tiếp cận bài tập, cách tổ chức thời gian, cách sử dụng công cụ số...]",
+  content: "Tiếp cận bài tập và nội dung số dễ dàng hơn. Sử dụng nhiều công cụ làm việc nhóm, phát triển khả năng tư duy phản biện và giao tiếp. Biết cách tổ chức, thu thập dữ liệu từ AI, viết prompt chỉn chu và sáng tạo hơn. Quản lý thời gian, dữ liệu logic và sáng tạo. Ý thức hơn về liêm chính học thuật và sử dụng AI hợp lý, hiệu quả.",
   color: "primary"
 }, {
   icon: Sparkles,
