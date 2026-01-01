@@ -30,8 +30,7 @@ const ConclusionSection = () => {
                 <h3 className="text-xl font-bold text-foreground">Trải nghiệm xây dựng Portfolio</h3>
               </div>
               <p className="text-muted-foreground leading-relaxed">
-                [Chia sẻ trải nghiệm cá nhân khi xây dựng portfolio này. Bạn học được gì từ việc tổng hợp và 
-                trình bày lại các bài tập? Quá trình này giúp bạn nhìn nhận việc học như thế nào?]
+                Quá trình xây dựng Portfolio giúp tôi nhìn lại toàn bộ hành trình học tập của mình một cách hệ thống, thay vì chỉ hoàn thành từng bài tập rời rạc. Khi tổng hợp và trình bày lại các bài đã làm, tôi nhận ra mỗi bài đều góp phần hình thành kỹ năng số, tư duy học thuật và cách sử dụng AI có trách nhiệm. Việc sắp xếp, viết lại và phân tích các bài tập buộc tôi phải hiểu rõ mình đã học được gì, làm tốt ở đâu và còn thiếu sót điều gì. Nhờ đó, tôi nhìn nhận việc học không chỉ là hoàn thành yêu cầu môn học, mà là một quá trình tích lũy, phản tư và cải thiện liên tục. Tôi tiếp tục nỗ lực và hoàn thành bản thân, thành phiên bản khác hơn.
               </p>
             </CardContent>
           </Card>
