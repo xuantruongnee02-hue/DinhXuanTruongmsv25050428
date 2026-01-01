@@ -136,17 +136,20 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
               <Image className="w-5 h-5 text-chart-2" />
               <h4 className="font-bold text-foreground">3. Minh chứng học tập</h4>
             </div>
-            <div className="grid md:grid-cols-2 gap-4">
-              <div className="aspect-video rounded-lg bg-accent border-2 border-dashed border-border flex items-center justify-center">
-                <p className="text-muted-foreground text-sm text-center px-4">
-                  [Thêm ảnh chụp màn hình hoặc hình ảnh minh chứng tại đây]
-                </p>
-              </div>
-              <div className="aspect-video rounded-lg bg-accent border-2 border-dashed border-border flex items-center justify-center">
-                <p className="text-muted-foreground text-sm text-center px-4">
-                  [Link file / video / tài liệu liên quan]
-                </p>
-              </div>
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+              {[1, 2, 3, 4, 5].map((num) => (
+                <div
+                  key={num}
+                  className="aspect-square rounded-lg bg-accent border-2 border-dashed border-border flex items-center justify-center hover:border-primary/50 transition-colors cursor-pointer"
+                >
+                  <div className="text-center p-2">
+                    <Image className="w-8 h-8 text-muted-foreground mx-auto mb-2" />
+                    <p className="text-muted-foreground text-xs">
+                      Ảnh {num}
+                    </p>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
 
