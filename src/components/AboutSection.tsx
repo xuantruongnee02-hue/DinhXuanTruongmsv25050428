@@ -76,8 +76,7 @@ const AboutSection = () => {
               <ul className="space-y-3 text-muted-foreground">
                 <li className="flex items-start gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0" />
-                  <span className="font-sans">​Mục tiêu 2 – Chủ động công nghệ
-Tôi học cách làm chủ công nghệ, lựa chọn công cụ phù hợp cho từng nhiệm vụ thay vì dùng theo thói quen.          </span>
+                  <span className="font-sans">Mục tiêu 1 – Kỹ năng số: Tôi muốn sử dụng kỹ năng số một cách có chiến lược: tìm đúng thông tin, tổ chức dữ liệu khoa học và trình bày sản phẩm rõ ràng.</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0" />
