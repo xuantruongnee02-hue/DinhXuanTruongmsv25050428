@@ -20,7 +20,7 @@ export const projectsData: Project[] = [
         "Bước 4: Sắp xếp tài liệu đúng vị trí - Tôi lưu các file văn bản, hình ảnh và video đúng thư mục tương ứng, tránh lưu rải rác gây nhầm lẫn.",
         "Bước 5: Kiểm tra và hoàn thiện - Sau khi hoàn tất, tôi kiểm tra lại toàn bộ cấu trúc thư mục và chụp ảnh màn hình cây thư mục làm minh chứng cho bài tập.",
       ],
-      tools: ["Google Docs", "ChatGPT", "Canva", "[Thêm công cụ khác]"],
+      tools: [],
     },
     analysis: {
       strengths: [
