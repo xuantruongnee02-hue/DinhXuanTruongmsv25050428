@@ -12,6 +12,15 @@ import project2Img3 from "@/assets/evidence/project2-img3.png";
 import project2Img4 from "@/assets/evidence/project2-img4.png";
 import project2Img5 from "@/assets/evidence/project2-img5.png";
 
+import project4Img1 from "@/assets/evidence/project4-img1.png";
+import project4Img2 from "@/assets/evidence/project4-img2.png";
+import project4Img3 from "@/assets/evidence/project4-img3.png";
+import project4Img4 from "@/assets/evidence/project4-img4.png";
+import project4Img5 from "@/assets/evidence/project4-img5.png";
+import project4Img6 from "@/assets/evidence/project4-img6.png";
+import project4Img7 from "@/assets/evidence/project4-img7.jpg";
+import project4Img8 from "@/assets/evidence/project4-img8.png";
+
 export const projectsData: Project[] = [
   {
     id: 1,
@@ -201,6 +210,7 @@ export const projectsData: Project[] = [
       ],
       tools: ["Discord", "Trello", "Google Drive", "Google Docs", "Google Slides"],
     },
+    evidence: [project4Img1, project4Img2, project4Img3, project4Img4, project4Img5, project4Img6, project4Img7, project4Img8],
     analysis: {
       strengths: [
         "[Điểm mạnh 1]",
