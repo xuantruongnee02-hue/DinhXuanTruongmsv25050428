@@ -111,8 +111,7 @@ const ConclusionSection = () => {
               <div className="space-y-4 text-muted-foreground">
                 <p>
                   <span className="font-medium text-foreground">Khó khăn gặp phải: </span>
-                  [Mô tả những khó khăn bạn gặp trong quá trình học và làm bài. Ví dụ: Quản lý thời gian, 
-                  hiểu kiến thức mới, sử dụng công cụ...]
+                  Ban đầu chưa tiếp cận nhiều công cụ AI, công cụ làm video trên internet vẫn không biết cách thức hoạt động và chức năng là gì còn phân vân, ngơ ngác trong quá trình làm và tạo sản phẩm. Sản phẩm tạo ra không vừa ý, đơn giản và ít điểm nhấn. Sử dụng công cụ AI thì không chọn lọc, không tiếp cận nhanh dữ liệu một cách dễ dàng. Không biết mình đã mắc liêm chính học thuật. Viết câu prompt đơn giản và khó khăn trong từng câu từng chữ. Không biết cách tạo các video cũng như các công cụ thực hiện như nào.
                 </p>
                 <p>
                   <span className="font-medium text-foreground">Cách vượt qua: </span>
