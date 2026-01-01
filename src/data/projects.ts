@@ -14,7 +14,7 @@ export const projectsData: Project[] = [
     ],
     process: {
       steps: [
-        "[Bước 1: Nghiên cứu tài liệu về cấu tạo máy tính]",
+        "Bước 1: Nghiên cứu tài liệu về cấu tạo máy tính",
         "[Bước 2: Thực hành kết nối thiết bị ngoại vi]",
         "[Bước 3: Ghi chép và tổng hợp kiến thức]",
         "[Bước 4: Hoàn thành báo cáo/bài nộp]",
