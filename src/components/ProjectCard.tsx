@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ChevronDown, ChevronUp, Target, Workflow, Image, BarChart3, Shield, BookOpen } from "lucide-react";
+import { ChevronDown, ChevronUp, Target, Workflow, Image, BarChart3, Shield, BookOpen, FileText } from "lucide-react";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -137,7 +137,9 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
               <Image className="w-5 h-5 text-chart-2" />
               <h4 className="font-bold text-foreground">3. Minh chứng học tập</h4>
             </div>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+            
+            {/* Images Grid */}
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 mb-4">
               {project.evidence && project.evidence.length > 0 ? (
                 project.evidence.map((img, idx) => (
                   <div
@@ -166,6 +168,17 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
                   </div>
                 ))
               )}
+            </div>
+
+            {/* Document Upload Slot */}
+            <div className="p-4 rounded-lg bg-accent border-2 border-dashed border-border flex items-center gap-4 hover:border-primary/50 transition-colors cursor-pointer">
+              <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+                <FileText className="w-6 h-6 text-primary" />
+              </div>
+              <div className="flex-1">
+                <p className="font-medium text-foreground">Tệp tài liệu (.docx)</p>
+                <p className="text-sm text-muted-foreground">Tải lên file Word để minh chứng</p>
+              </div>
             </div>
           </div>
 
