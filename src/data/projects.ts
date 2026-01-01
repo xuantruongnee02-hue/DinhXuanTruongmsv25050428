@@ -16,7 +16,7 @@ export const projectsData: Project[] = [
       steps: [
         "Bước 1: Nghiên cứu tài liệu về cấu tạo máy tính",
         "Bước 2: Phân chia thư mục theo từng bài học - Trong thư mục Portfolio, tôi tạo các thư mục con cho từng bài tập (Bài 1 đến Bài 6) nhằm phân loại nội dung rõ ràng.",
-        "[Bước 3: Ghi chép và tổng hợp kiến thức]",
+        "Bước 3: Đặt tên file khoa học và nhất quán - Các file được đặt tên theo cấu trúc: Tên bài – nội dung – ngày thực hiện để dễ nhận diện và tìm kiếm.",
         "[Bước 4: Hoàn thành báo cáo/bài nộp]",
       ],
       tools: ["Google Docs", "ChatGPT", "Canva", "[Thêm công cụ khác]"],
