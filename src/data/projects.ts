@@ -113,11 +113,12 @@ export const projectsData: Project[] = [
     },
     aiUsage: {
       howUsed: [
-        "[Cách dùng AI 1]",
-        "[Cách dùng AI 2]",
+        "Không sử dụng AI",
+        "Tự tra cứu và chụp hình lấy minh họa",
+        "Dữ liệu tự tìm và cung cấp",
       ],
       commitment:
-        "Tôi cam kết không sao chép nguyên văn từ AI. Mọi nội dung đều được tôi đọc, hiểu, chọn lọc và viết lại bằng ngôn ngữ của mình.",
+        "Tôi cam kết bài làm này hoàn toàn do tôi tự thực hiện thông qua việc nghiên cứu và thực hành. Tôi chịu trách nhiệm hoàn toàn về tính liêm chính học thuật của bài làm này.",
     },
   },
   {
