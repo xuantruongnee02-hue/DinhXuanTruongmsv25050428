@@ -76,12 +76,14 @@ export const projectsData: Project[] = [
     ],
     process: {
       steps: [
-        "[Bước 1: Xác định chủ đề và từ khóa tìm kiếm]",
-        "[Bước 2: Sử dụng các công cụ tìm kiếm]",
-        "[Bước 3: Đánh giá và chọn lọc nguồn tin]",
-        "[Bước 4: Tổng hợp và hoàn thành bài]",
+        "Bước 1: Xác định mục tiêu và chủ đề nghiên cứu - Trước tiên, tôi xác định mục tiêu của bài tập là phân tích tác động của trí tuệ nhân tạo (AI) đối với giáo dục đại học. Chủ đề này được lựa chọn vì phù hợp với ngành học và có nhiều góc nhìn học thuật cần được đánh giá cẩn trọng.",
+        "Bước 2: Xác định phạm vi và nguồn tìm kiếm - Tôi giới hạn phạm vi tìm kiếm vào các nguồn học thuật và uy tín, bao gồm cơ sở dữ liệu học thuật (Google Scholar, Microsoft Academic), tạp chí khoa học chuyên ngành, sách chuyên khảo từ các nhà xuất bản lớn và một số nguồn mở đáng tin cậy.",
+        "Bước 3: Xây dựng bộ từ khóa tìm kiếm - Dựa trên chủ đề nghiên cứu, tôi xây dựng bộ từ khóa bằng tiếng Anh để tăng độ chính xác và phạm vi tìm kiếm, như: AI in higher education, Artificial Intelligence and pedagogy, AI adoption in universities, EdTech and AI.",
+        "Bước 4: Thu thập và chọn lọc tài liệu - Từ quá trình tìm kiếm, tôi thu thập tổng cộng 12 tài liệu, bao gồm bài báo khoa học, sách chuyên khảo và nguồn mở. Tôi loại bỏ các tài liệu không rõ tác giả, lỗi thời hoặc mang tính ý kiến cá nhân thuần túy.",
+        "Bước 5: Đánh giá độ tin cậy của nguồn thông tin - Mỗi tài liệu được đánh giá dựa trên bốn tiêu chí: tác giả và cơ quan xuất bản, phương pháp nghiên cứu, mức độ trích dẫn và tính cập nhật. Kết quả đánh giá được tổng hợp thành bảng để dễ so sánh và phân tích.",
+        "Bước 6: Tổng hợp, phân tích và viết báo cáo - Cuối cùng, tôi tổng hợp các kết quả tìm kiếm, phân tích điểm mạnh – hạn chế của từng nguồn và rút ra nhận định chung về vai trò của AI trong giáo dục đại học. Báo cáo được trình bày theo cấu trúc học thuật rõ ràng và có danh mục tài liệu tham khảo theo chuẩn Harvard.",
       ],
-      tools: ["Google Scholar", "Wikipedia", "Zotero", "[Thêm công cụ khác]"],
+      tools: ["Google Scholar", "Microsoft Academic", "Tạp chí khoa học chuyên ngành", "Sách chuyên khảo"],
     },
     analysis: {
       strengths: [
