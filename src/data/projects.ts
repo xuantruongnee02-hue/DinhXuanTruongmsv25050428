@@ -352,8 +352,9 @@ export const projectsData: Project[] = [
     },
     aiUsage: {
       howUsed: [
-        "[Cách dùng AI 1]",
-        "[Cách dùng AI 2]",
+        "Sử dụng AI (ChatGPT) để tìm nguồn thông tin và tài liệu tham khảo về liêm chính học thuật",
+        "Có sàng lọc kỹ lưỡng và tích hợp nhiều nội dung của bản thân hơn",
+        "AI chỉ đóng vai trò hỗ trợ gợi ý, toàn bộ phân tích và lập luận là của cá nhân",
       ],
       commitment:
         "Tôi cam kết không sao chép nguyên văn từ AI. Mọi nội dung đều được tôi đọc, hiểu, chọn lọc và viết lại bằng ngôn ngữ của mình.",
