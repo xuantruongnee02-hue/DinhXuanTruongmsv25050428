@@ -8,7 +8,7 @@ const reflectionItems = [{
 }, {
   icon: Sparkles,
   title: "Kỹ năng số tiến bộ rõ nhất",
-  content: "[Mô tả kỹ năng số nào bạn đã tiến bộ nhiều nhất. Ví dụ: Sử dụng AI, thiết kế nội dung, tìm kiếm thông tin, làm việc nhóm online...]",
+  content: "Kỹ năng số tiến bộ rõ nhất của tôi là khả năng sử dụng AI một cách có định hướng và kiểm soát. Tôi không còn dùng AI một cách cảm tính mà biết cách đặt prompt rõ ràng, chọn lọc thông tin và chỉnh sửa lại kết quả để phù hợp với mục tiêu học tập. Bên cạnh đó, tôi cũng cải thiện rõ rệt kỹ năng tổ chức công việc số và trình bày sản phẩm học tập một cách khoa học và chuyên nghiệp hơn. Hiểu biết cách sử dụng cũng như bộ phận trong của máy tính nâng cao hiểu biết hơn nữa.",
   color: "chart-1"
 }, {
   icon: Brain,
