@@ -9,7 +9,7 @@ export const projectsData: Project[] = [
       "Bài tập giúp tôi hình thành thói quen tổ chức và lưu trữ tài liệu học tập một cách khoa học. Thông qua việc sắp xếp thư mục và đặt tên file hợp lý, tôi dễ dàng tìm kiếm và quản lý dữ liệu hơn. Kỹ năng này hỗ trợ tôi học tập hiệu quả và tiết kiệm thời gian.",
     objectives: [
       "Mục tiêu 1: Hiểu được cấu tạo và chức năng của các thành phần máy tính",
-      "[Mục tiêu 2: Biết cách kết nối và sử dụng thiết bị ngoại vi]",
+      "Mục tiêu 2: Biết cách kết nối và sử dụng thiết bị ngoại vi",
       "Mục tiêu 3: Áp dụng kiến thức để lựa chọn thiết bị phù hợp với nhu cầu",
     ],
     process: {
