@@ -26,6 +26,8 @@ import project5Img2 from "@/assets/evidence/project5-img2.png";
 import project5Img3 from "@/assets/evidence/project5-img3.png";
 import project5Img4 from "@/assets/evidence/project5-img4.png";
 
+import project6Img1 from "@/assets/evidence/project6-img1.png";
+
 export const projectsData: Project[] = [
   {
     id: 1,
@@ -325,6 +327,7 @@ export const projectsData: Project[] = [
       ],
       tools: ["ChatGPT", "Grammarly", "Turnitin"],
     },
+    evidence: [project6Img1],
     analysis: {
       strengths: [
         "[Điểm mạnh 1]",
