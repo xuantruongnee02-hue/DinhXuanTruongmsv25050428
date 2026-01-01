@@ -10,7 +10,7 @@ export const projectsData: Project[] = [
     objectives: [
       "Mục tiêu 1: Hiểu được cấu tạo và chức năng của các thành phần máy tính",
       "[Mục tiêu 2: Biết cách kết nối và sử dụng thiết bị ngoại vi]",
-      "[Mục tiêu 3: Áp dụng kiến thức để lựa chọn thiết bị phù hợp với nhu cầu]",
+      "Mục tiêu 3: Áp dụng kiến thức để lựa chọn thiết bị phù hợp với nhu cầu",
     ],
     process: {
       steps: [
