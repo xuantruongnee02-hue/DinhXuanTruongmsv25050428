@@ -292,8 +292,9 @@ export const projectsData: Project[] = [
     },
     aiUsage: {
       howUsed: [
-        "[Cách dùng AI 1]",
-        "[Cách dùng AI 2]",
+        "ChatGPT: Prompt \"Hãy tạo 10 slogan truyền cảm hứng cho chiến dịch giảm rác thải nhựa, phong cách mạnh mẽ, dễ nhớ, phù hợp dùng trên poster môi trường.\"",
+        "DALL·E 3: Prompt \"Create a high-quality environmental poster background showing a split scene: one side is a clean ocean with turtles swimming peacefully, the other side is a polluted ocean with plastic waste. Modern illustration style, bright colors, impactful and emotional.\"",
+        "Canva AI: Prompt \"Generate a clean, modern poster layout for an environmental campaign using the uploaded image. Use bold sans-serif fonts, green and ocean-blue tones, and create a strong visual contrast. Highlight the slogan: Reduce Plastic, Restore Nature.\"",
       ],
       commitment:
         "Tôi cam kết không sao chép nguyên văn từ AI. Mọi nội dung đều được tôi đọc, hiểu, chọn lọc và viết lại bằng ngôn ngữ của mình.",
