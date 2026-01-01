@@ -3,22 +3,22 @@ import { Card, CardContent } from "@/components/ui/card";
 const reflectionItems = [{
   icon: TrendingUp,
   title: "Thay đổi lớn nhất trong cách học",
-  content: "[Viết về những thay đổi quan trọng nhất trong phương pháp học tập của bạn sau khi học môn này. Ví dụ: Cách bạn tiếp cận bài tập, cách tổ chức thời gian, cách sử dụng công cụ số...]",
+  content: "Tiếp cận bài tập và nội dung số dễ dàng hơn. Sử dụng nhiều công cụ làm việc nhóm, phát triển khả năng tư duy phản biện và giao tiếp. Biết cách tổ chức, thu thập dữ liệu từ AI, viết prompt chỉn chu và sáng tạo hơn. Quản lý thời gian, dữ liệu logic và sáng tạo. Ý thức hơn về liêm chính học thuật và sử dụng AI hợp lý, hiệu quả.",
   color: "primary"
 }, {
   icon: Sparkles,
   title: "Kỹ năng số tiến bộ rõ nhất",
-  content: "[Mô tả kỹ năng số nào bạn đã tiến bộ nhiều nhất. Ví dụ: Sử dụng AI, thiết kế nội dung, tìm kiếm thông tin, làm việc nhóm online...]",
+  content: "Kỹ năng số tiến bộ rõ nhất của tôi là khả năng sử dụng AI một cách có định hướng và kiểm soát. Tôi không còn dùng AI một cách cảm tính mà biết cách đặt prompt rõ ràng, chọn lọc thông tin và chỉnh sửa lại kết quả để phù hợp với mục tiêu học tập. Bên cạnh đó, tôi cũng cải thiện rõ rệt kỹ năng tổ chức công việc số và trình bày sản phẩm học tập một cách khoa học và chuyên nghiệp hơn. Hiểu biết cách sử dụng cũng như bộ phận trong của máy tính nâng cao hiểu biết hơn nữa.",
   color: "chart-1"
 }, {
   icon: Brain,
   title: "Bài học từ việc sử dụng AI",
-  content: "[Chia sẻ những điều bạn học được khi sử dụng AI trong học tập. Ví dụ: Cách đặt prompt hiệu quả, khi nào nên/không nên dùng AI, cách kiểm chứng thông tin từ AI...]",
+  content: "Qua quá trình sử dụng AI trong học tập và sáng tạo nội dung, tôi nhận ra rằng AI chỉ thực sự hiệu quả khi được sử dụng có mục đích và kiểm soát. AI giúp tôi tiết kiệm thời gian, mở rộng ý tưởng và cải thiện chất lượng sản phẩm, nhưng không thể thay thế tư duy, khả năng chọn lọc và trách nhiệm của người học. Bài học quan trọng nhất tôi rút ra là cần xem AI như một trợ lý hỗ trợ quá trình học tập, luôn kiểm tra lại thông tin, viết lại bằng lời của mình và chịu trách nhiệm với kết quả cuối cùng.",
   color: "chart-2"
 }, {
   icon: Shield,
   title: "Nhận thức về liêm chính học thuật",
-  content: "[Viết về sự thay đổi trong nhận thức của bạn về liêm chính học thuật. Bạn hiểu thế nào về việc sử dụng AI có trách nhiệm? Ranh giới giữa tham khảo và sao chép?]",
+  content: "Thông qua các bài tập và việc sử dụng AI trong học tập, tôi nhận thức rõ hơn rằng liêm chính học thuật không chỉ là tránh sao chép hay gian lận, mà còn là trung thực với quá trình học của chính mình. Việc sử dụng AI cần minh bạch, có kiểm soát và không làm thay thế tư duy cá nhân. Tôi hiểu rằng mọi sản phẩm học thuật cuối cùng đều phải phản ánh sự hiểu biết và trách nhiệm của người học, và AI chỉ nên đóng vai trò là công cụ hỗ trợ trong quá trình đó. Hiểu biết về liêm chính học thuật nhiều hơn và ý thức được điều đó rất quan trọng trong học tập và cuộc sống.",
   color: "chart-3"
 }];
 const ReflectionSection = () => {
@@ -52,7 +52,7 @@ const ReflectionSection = () => {
                     </div>
                     <h3 className="text-lg font-bold text-foreground">{item.title}</h3>
                   </div>
-                  <p className="leading-relaxed text-[#0a8bd6]/[0.83]">
+                  <p className="text-muted-foreground leading-relaxed">
                     {item.content}
                   </p>
                 </CardContent>
@@ -65,9 +65,9 @@ const ReflectionSection = () => {
           <CardContent className="p-8 text-center">
             <Quote className="w-12 h-12 text-primary/30 mx-auto mb-4" />
             <blockquote className="text-xl md:text-2xl font-medium text-foreground mb-4 italic">
-              "[Viết một câu quote hoặc suy nghĩ tâm đắc nhất của bạn sau quá trình học môn này]"
+              "Công nghệ chỉ thực sự có giá trị khi người học biết kiểm soát nó; AI không thay tôi học, mà buộc tôi phải học đúng cách hơn. Làm chủ được môi trường AI."
             </blockquote>
-            <p className="text-muted-foreground">— [Tên của bạn]</p>
+            <p className="text-muted-foreground">— Xuân Trường Dev</p>
           </CardContent>
         </Card>
       </div>
