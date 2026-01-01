@@ -108,7 +108,7 @@ export const projectsData: Project[] = [
         "Chưa làm rõ mối liên hệ giữa các nguồn để hình thành lập luận tổng hợp",
         "Cần rút gọn một số phần để nội dung súc tích hơn",
       ],
-      ifRedone: "",
+      ifRedone: "Sẽ cẩn thận và dành nhiều thời gian cải thiện và phát huy hơn nữa",
       progress: "Chuyển từ tìm kiếm thông tin cảm tính sang tiếp cận nguồn học thuật có chọn lọc. Biết đánh giá độ tin cậy của thông tin trước khi sử dụng. Hình thành tư duy nghiên cứu học thuật và ý thức liêm chính trong khai thác dữ liệu.",
     },
     aiUsage: {
