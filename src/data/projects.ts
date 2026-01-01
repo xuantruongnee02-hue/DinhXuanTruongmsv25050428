@@ -70,9 +70,9 @@ export const projectsData: Project[] = [
     summary:
       "Bài tập giúp tôi rèn luyện kỹ năng tìm kiếm, chọn lọc và khai thác thông tin từ các nguồn trực tuyến. Tôi thực hành so sánh dữ liệu từ các công cụ tìm kiếm khác nhau để đánh giá độ tin cậy và giá trị sử dụng của thông tin. Qua đó, tôi hình thành thói quen tiếp cận dữ liệu một cách có hệ thống và có trách nhiệm trong học tập.",
     objectives: [
-      "[Mục tiêu 1: Biết cách tìm kiếm thông tin hiệu quả]",
-      "[Mục tiêu 2: Đánh giá độ tin cậy của nguồn thông tin]",
-      "[Mục tiêu 3: Tổng hợp và trích dẫn thông tin đúng cách]",
+      "Mục tiêu 1: Biết cách tìm kiếm thông tin hiệu quả",
+      "Mục tiêu 2: Đánh giá độ tin cậy của nguồn thông tin",
+      "Mục tiêu 3: Tổng hợp và trích dẫn thông tin đúng cách",
     ],
     process: {
       steps: [
