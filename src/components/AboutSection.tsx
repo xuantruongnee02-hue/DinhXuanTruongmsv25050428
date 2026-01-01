@@ -80,8 +80,7 @@ const AboutSection = () => {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0" />
-                  <span className="font-sans">Mục tiêu 3 – Ứng dụng AI
-Tôi sử dụng AI như trợ lý tư duy để hỗ trợ học tập, đồng thời luôn kiểm soát, kiểm chứng và chịu trách nhiệm với kết quả.</span>
+                  <span className="font-sans">Mục tiêu 2 – Chủ động công nghệ: Tôi học cách làm chủ công nghệ, lựa chọn công cụ phù hợp cho từng nhiệm vụ thay vì dùng theo thói quen.</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0" />
