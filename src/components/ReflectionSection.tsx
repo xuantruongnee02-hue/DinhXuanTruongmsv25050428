@@ -13,7 +13,7 @@ const reflectionItems = [{
 }, {
   icon: Brain,
   title: "Bài học từ việc sử dụng AI",
-  content: "[Chia sẻ những điều bạn học được khi sử dụng AI trong học tập. Ví dụ: Cách đặt prompt hiệu quả, khi nào nên/không nên dùng AI, cách kiểm chứng thông tin từ AI...]",
+  content: "Qua quá trình sử dụng AI trong học tập và sáng tạo nội dung, tôi nhận ra rằng AI chỉ thực sự hiệu quả khi được sử dụng có mục đích và kiểm soát. AI giúp tôi tiết kiệm thời gian, mở rộng ý tưởng và cải thiện chất lượng sản phẩm, nhưng không thể thay thế tư duy, khả năng chọn lọc và trách nhiệm của người học. Bài học quan trọng nhất tôi rút ra là cần xem AI như một trợ lý hỗ trợ quá trình học tập, luôn kiểm tra lại thông tin, viết lại bằng lời của mình và chịu trách nhiệm với kết quả cuối cùng.",
   color: "chart-2"
 }, {
   icon: Shield,
