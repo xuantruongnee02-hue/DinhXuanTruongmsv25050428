@@ -29,7 +29,7 @@ const AboutSection = () => {
               
               <div className="text-center mb-6">
                 <h3 className="font-bold text-foreground mb-2 text-lg">Họ và Tên: Đinh Xuân Trường</h3>
-                <p className="text-primary font-medium">[Ngành học của bạn]</p>
+                <p className="text-primary font-medium">Khoa: Kinh Tế Chính Trị </p>
                 <p className="text-muted-foreground text-sm mt-1">[Trường / Khoa]</p>
               </div>
 
