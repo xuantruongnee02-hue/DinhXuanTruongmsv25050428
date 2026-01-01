@@ -1,27 +1,30 @@
 import { Trophy, BookOpen, Mountain, Star, CheckCircle } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
+import { useScrollAnimation } from "@/hooks/use-scroll-animation";
 
 const ConclusionSection = () => {
+  const { ref, isVisible } = useScrollAnimation(0.1);
+
   return (
     <section id="conclusion" className="py-20 md:py-32 bg-accent/30">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4" ref={ref}>
         {/* Section Header */}
-        <div className="text-center mb-16">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary mb-4 animate-fade-in">
+        <div className={`text-center mb-16 transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary mb-4">
             <Trophy className="w-4 h-4" />
             <span className="text-sm font-medium">Tổng kết</span>
           </div>
-          <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4 animate-fade-in-up">
+          <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4">
             Kết luận
           </h2>
-          <p className="text-muted-foreground max-w-2xl mx-auto animate-fade-in-up animation-delay-100">
+          <p className="text-muted-foreground max-w-2xl mx-auto">
             Tổng kết quá trình học tập và xây dựng Digital Portfolio
           </p>
         </div>
 
         <div className="max-w-4xl mx-auto space-y-8">
           {/* Experience Card */}
-          <Card className="bg-card border-border shadow-lg animate-fade-in-up animation-delay-200">
+          <Card className={`bg-card border-border shadow-lg transition-all duration-700 delay-100 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
             <CardContent className="p-8">
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center">
@@ -36,7 +39,7 @@ const ConclusionSection = () => {
           </Card>
 
           {/* Key Learnings */}
-          <Card className="bg-card border-border shadow-lg animate-fade-in-up animation-delay-300">
+          <Card className={`bg-card border-border shadow-lg transition-all duration-700 delay-200 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
             <CardContent className="p-8">
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-12 h-12 rounded-xl bg-chart-1/10 flex items-center justify-center">
@@ -100,7 +103,7 @@ const ConclusionSection = () => {
           </Card>
 
           {/* Challenges */}
-          <Card className="bg-card border-border shadow-lg animate-fade-in-up animation-delay-400">
+          <Card className={`bg-card border-border shadow-lg transition-all duration-700 delay-300 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
             <CardContent className="p-8">
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-12 h-12 rounded-xl bg-chart-2/10 flex items-center justify-center">
@@ -122,7 +125,7 @@ const ConclusionSection = () => {
           </Card>
 
           {/* Pride */}
-          <Card className="bg-gradient-to-br from-primary/5 to-chart-1/5 border-primary/20 shadow-lg animate-fade-in-up animation-delay-500">
+          <Card className={`bg-gradient-to-br from-primary/5 to-chart-1/5 border-primary/20 shadow-lg transition-all duration-700 delay-400 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
             <CardContent className="p-8">
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center">
@@ -137,7 +140,7 @@ const ConclusionSection = () => {
           </Card>
 
           {/* Final Commitment */}
-          <div className="text-center p-8 rounded-2xl bg-secondary text-secondary-foreground animate-fade-in-up animation-delay-500">
+          <div className={`text-center p-8 rounded-2xl bg-secondary text-secondary-foreground transition-all duration-700 delay-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
             <h3 className="text-xl font-bold mb-4">Cam kết cuối cùng</h3>
             <p className="leading-relaxed max-w-2xl mx-auto">
               Website này được xây dựng với mục tiêu học tập nghiêm túc. 
