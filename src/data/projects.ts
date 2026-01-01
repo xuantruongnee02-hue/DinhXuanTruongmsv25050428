@@ -227,7 +227,7 @@ export const projectsData: Project[] = [
         "Một số nguồn mở chưa được làm rõ giới hạn sử dụng trong học thuật",
         "Hơi ít ảnh minh chứng, còn ngại và ít nói chuyện trong quá trình thực hiện giao tiếp",
       ],
-      ifRedone: "",
+      ifRedone: "Tôi sẽ cải thiện bản thân và tham gia hoạt động hoạt bát hơn, tìm nhiều không gian làm việc dễ dàng cụ thể hơn cho làm việc nhóm",
       progress: "Chuyển từ tìm kiếm thông tin cảm tính sang tìm kiếm học thuật có chiến lược. Biết đánh giá độ tin cậy của nguồn trước khi sử dụng. Hình thành tư duy nghiên cứu và ý thức liêm chính học thuật. Biết cách giao tiếp cải thiện nhiều việc tham gia nhóm trực tuyến.",
     },
     aiUsage: {
