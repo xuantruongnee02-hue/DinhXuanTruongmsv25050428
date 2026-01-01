@@ -134,12 +134,14 @@ export const projectsData: Project[] = [
     ],
     process: {
       steps: [
-        "[Bước 1: Nghiên cứu về lịch sử và phát triển AI]",
-        "[Bước 2: Tìm hiểu các ứng dụng thực tế]",
-        "[Bước 3: Phân tích ưu nhược điểm]",
-        "[Bước 4: Viết báo cáo tổng hợp]",
+        "Bước 1: Phân tích tác vụ học tập - Trước tiên, tôi xác định các loại tác vụ học tập cần AI hỗ trợ, bao gồm: tóm tắt tài liệu học thuật, giải thích khái niệm phức tạp và tạo câu hỏi ôn tập. Với mỗi tác vụ, tôi làm rõ mục tiêu, thách thức và yêu cầu đầu ra để làm cơ sở xây dựng prompt phù hợp.",
+        "Bước 2: Xây dựng prompt cơ bản - Tôi bắt đầu với các prompt ngắn và đơn giản để quan sát phản hồi ban đầu của AI. Các prompt này thường chưa xác định rõ đối tượng, độ dài hay cấu trúc đầu ra, nhằm làm mốc so sánh cho các phiên bản sau.",
+        "Bước 3: Cải tiến prompt theo mục tiêu học tập - Dựa trên kết quả ban đầu, tôi điều chỉnh prompt bằng cách bổ sung thông tin về độ dài, đối tượng người học và yêu cầu nội dung. Điều này giúp AI tạo ra câu trả lời rõ ràng hơn và phù hợp hơn với mục tiêu học tập.",
+        "Bước 4: Xây dựng prompt nâng cao - Ở bước này, tôi áp dụng các kỹ thuật viết prompt nâng cao như xác định vai trò cho AI (role prompting), chia yêu cầu theo từng bước và chỉ rõ cấu trúc đầu ra. Nhờ đó, kết quả AI trả về có tính hệ thống, dễ hiểu và sát với nhu cầu người học.",
+        "Bước 5: Thử nghiệm và so sánh kết quả - Tôi lần lượt thử nghiệm prompt cơ bản, cải tiến và nâng cao cho từng tác vụ. Sau đó, tôi so sánh kết quả dựa trên mức độ đầy đủ nội dung, tính rõ ràng, cấu trúc và mức độ phù hợp với đối tượng học tập.",
+        "Bước 6: Phân tích hiệu quả và rút ra nguyên tắc - Cuối cùng, tôi phân tích vì sao prompt nâng cao cho kết quả tốt hơn, rút ra các nguyên tắc viết prompt hiệu quả như xác định rõ mục tiêu, sử dụng vai trò, chia nhỏ yêu cầu và kiểm tra lại kết quả để điều chỉnh.",
       ],
-      tools: ["ChatGPT", "Gemini", "YouTube", "[Thêm công cụ khác]"],
+      tools: ["ChatGPT", "Gemini"],
     },
     analysis: {
       strengths: [
