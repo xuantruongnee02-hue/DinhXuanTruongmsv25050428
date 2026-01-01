@@ -42,17 +42,18 @@ export const projectsData: Project[] = [
     },
     analysis: {
       strengths: [
-        "[Điểm mạnh 1: Ví dụ - Hiểu rõ các thành phần cơ bản]",
-        "[Điểm mạnh 2: Ví dụ - Trình bày logic, dễ hiểu]",
+        "Hiểu rõ các bước và cách làm",
+        "Trình bày logic, dễ hiểu",
+        "Làm bài ổn định và sản phẩm chính mình",
       ],
       improvements: [
-        "[Cần cải thiện 1: Ví dụ - Cần đi sâu hơn vào chi tiết kỹ thuật]",
-        "[Cần cải thiện 2: Ví dụ - Bổ sung thêm hình ảnh minh họa]",
+        "Tìm hiểu sâu và nghiên cứu kĩ",
+        "Cần bổ sung nhiều hình ảnh minh họa hơn nữa",
       ],
       ifRedone:
-        "[Nếu làm lại, tôi sẽ: Ví dụ - Dành thêm thời gian nghiên cứu và thực hành thực tế]",
+        "Sẽ dành nhiều thời gian ra tìm hiểu và cẩn thận hơn, nghiên cứu và thực hành nhiều",
       progress:
-        "[Sự tiến bộ: Ví dụ - Trước khi học, tôi chưa hiểu rõ về RAM, CPU. Sau bài này, tôi đã có thể giải thích cho người khác]",
+        "Tôi biết cách tổ chức dữ liệu logic, dễ tìm, không mò như trước kia, đó là điều cần cải thiện từ bản thân",
     },
     aiUsage: {
       howUsed: [
