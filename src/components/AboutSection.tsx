@@ -127,9 +127,7 @@ const AboutSection = () => {
               </div>
               <blockquote className="text-muted-foreground italic border-l-4 border-primary pl-4">
                 <p className="mb-4">
-                  "[Viết một đoạn chia sẻ chân thật về bản thân: Tại sao bạn chọn học môn này? 
-                  Bạn kỳ vọng gì từ việc xây dựng portfolio? Điều gì khiến bạn hứng thú với 
-                  công nghệ số và AI?]"
+                  ​Tôi chọn học môn Nhập môn Công nghệ số và Ứng dụng Trí tuệ nhân tạo vì nhận ra mình đang sử dụng công nghệ mỗi ngày nhưng chưa thực sự hiểu cách khai thác nó hiệu quả. Việc xây dựng Portfolio giúp tôi nhìn lại quá trình học của mình, từ cách tìm kiếm thông tin đến cách sử dụng AI có mục đích và trách nhiệm. Điều khiến tôi hứng thú với công nghệ số và AI không phải là việc chúng làm thay con người, mà là khả năng buộc người dùng phải suy nghĩ rõ ràng hơn, đặt câu hỏi tốt hơn và chịu trách nhiệm với sản phẩm mình tạo ra.
                 </p>
                 <p>
                   "[Thể hiện sự nghiêm túc và cam kết của bạn trong việc học tập]"
