@@ -36,6 +36,10 @@ export const projectsData: Project[] = [
       tools: [],
     },
     evidence: [project1Img1, project1Img2, project1Img3, project1Img4, project1Img5],
+    document: {
+      name: "Bìa_1_chấm_chéo.docx",
+      url: "/documents/project1-doc.docx",
+    },
     analysis: {
       strengths: [
         "[Điểm mạnh 1: Ví dụ - Hiểu rõ các thành phần cơ bản]",
