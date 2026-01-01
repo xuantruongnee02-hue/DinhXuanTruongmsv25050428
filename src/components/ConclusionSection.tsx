@@ -58,7 +58,7 @@ const ConclusionSection = () => {
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
-                      <span>[Kiến thức quan trọng 3]</span>
+                      <span>Hiểu biết về liêm chính học thuật trong học tập và cuộc sống</span>
                     </li>
                   </ul>
                 </div>
