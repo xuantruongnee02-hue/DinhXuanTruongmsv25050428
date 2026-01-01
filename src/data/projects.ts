@@ -1,5 +1,11 @@
 import { Project } from "@/components/ProjectCard";
 
+import project1Img1 from "@/assets/evidence/project1-img1.jpg";
+import project1Img2 from "@/assets/evidence/project1-img2.jpg";
+import project1Img3 from "@/assets/evidence/project1-img3.jpg";
+import project1Img4 from "@/assets/evidence/project1-img4.jpg";
+import project1Img5 from "@/assets/evidence/project1-img5.jpg";
+
 export const projectsData: Project[] = [
   {
     id: 1,
@@ -22,6 +28,7 @@ export const projectsData: Project[] = [
       ],
       tools: [],
     },
+    evidence: [project1Img1, project1Img2, project1Img3, project1Img4, project1Img5],
     analysis: {
       strengths: [
         "[Điểm mạnh 1: Ví dụ - Hiểu rõ các thành phần cơ bản]",
