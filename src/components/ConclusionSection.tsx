@@ -131,8 +131,7 @@ const ConclusionSection = () => {
                 <h3 className="text-xl font-bold text-foreground">Điều tôi tự hào nhất</h3>
               </div>
               <p className="text-muted-foreground leading-relaxed">
-                [Chia sẻ điều bạn cảm thấy tự hào nhất trong portfolio này. Có thể là một bài tập cụ thể, 
-                một kỹ năng đã phát triển, hoặc sự tiến bộ của bản thân qua toàn bộ quá trình học.]
+                Điều tôi tự hào nhất sau khi hoàn thành môn học và Portfolio này là tôi đã thay đổi cách học của chính mình. Tôi không còn học theo kiểu đối phó hay phụ thuộc vào công cụ, mà biết sử dụng công nghệ và AI như một trợ lý hỗ trợ tư duy. Quan trọng hơn, tôi tự hào vì có thể hoàn thành các sản phẩm học tập với sự minh bạch, trung thực và chịu trách nhiệm hoàn toàn với nội dung mình tạo ra. Các sản phẩm tôi dựa trên kiến thức, kinh nghiệm và sự vấp ngã trước đó để hoàn thiện hơn. Nó đánh dấu quá trình hoàn thiện bản thân từ lúc không biết gì đến lúc thành thạo và nổi trội hơn, tự hào hơn về bản thân.
               </p>
             </CardContent>
           </Card>
