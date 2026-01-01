@@ -92,6 +92,10 @@ export const projectsData: Project[] = [
       tools: ["Google Scholar", "Microsoft Academic", "Tạp chí khoa học chuyên ngành", "Sách chuyên khảo"],
     },
     evidence: [project2Img1, project2Img2, project2Img3, project2Img4, project2Img5],
+    document: {
+      name: "Báo cáo tìm kiếm và đánh giá thông tin học thuật.docx",
+      url: "/documents/project2-doc.docx",
+    },
     analysis: {
       strengths: [
         "[Điểm mạnh 1]",
