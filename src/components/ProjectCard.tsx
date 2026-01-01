@@ -15,6 +15,10 @@ export interface Project {
     tools: string[];
   };
   evidence?: string[];
+  document?: {
+    name: string;
+    url: string;
+  };
   analysis: {
     strengths: string[];
     improvements: string[];
@@ -171,15 +175,34 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
             </div>
 
             {/* Document Upload Slot */}
-            <div className="p-4 rounded-lg bg-accent border-2 border-dashed border-border flex items-center gap-4 hover:border-primary/50 transition-colors cursor-pointer">
-              <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
-                <FileText className="w-6 h-6 text-primary" />
+            {project.document ? (
+              <a
+                href={`https://docs.google.com/gview?url=${window.location.origin}${project.document.url}&embedded=true`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-4 rounded-lg bg-accent border border-border flex items-center gap-4 hover:bg-accent/80 transition-colors cursor-pointer group"
+              >
+                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+                  <FileText className="w-6 h-6 text-primary" />
+                </div>
+                <div className="flex-1">
+                  <p className="font-medium text-foreground group-hover:text-primary transition-colors">
+                    {project.document.name}
+                  </p>
+                  <p className="text-sm text-muted-foreground">Nhấn để xem tài liệu</p>
+                </div>
+              </a>
+            ) : (
+              <div className="p-4 rounded-lg bg-accent border-2 border-dashed border-border flex items-center gap-4 hover:border-primary/50 transition-colors cursor-pointer">
+                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+                  <FileText className="w-6 h-6 text-primary" />
+                </div>
+                <div className="flex-1">
+                  <p className="font-medium text-foreground">Tệp tài liệu (.docx)</p>
+                  <p className="text-sm text-muted-foreground">Tải lên file Word để minh chứng</p>
+                </div>
               </div>
-              <div className="flex-1">
-                <p className="font-medium text-foreground">Tệp tài liệu (.docx)</p>
-                <p className="text-sm text-muted-foreground">Tải lên file Word để minh chứng</p>
-              </div>
-            </div>
+            )}
           </div>
 
           {/* Analysis Section */}
