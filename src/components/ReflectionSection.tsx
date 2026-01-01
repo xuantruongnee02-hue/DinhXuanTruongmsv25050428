@@ -1,6 +1,6 @@
 import { Brain, TrendingUp, Sparkles, Shield, Quote } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
-import { useScrollAnimation } from "@/hooks/use-scroll-animation";
+import { useScrollAnimation, AnimationType } from "@/hooks/use-scroll-animation";
 
 const reflectionItems = [{
   icon: TrendingUp,
@@ -25,13 +25,21 @@ const reflectionItems = [{
 }];
 
 const ReflectionSection = () => {
-  const { ref, isVisible } = useScrollAnimation(0.1);
+  const { ref, isVisible, getAnimationClasses } = useScrollAnimation(0.1, 'fade-up');
+
+  const getCardAnimation = (index: number): AnimationType => {
+    const animations: AnimationType[] = ['fade-right', 'fade-left', 'fade-right', 'fade-left'];
+    return animations[index % animations.length];
+  };
 
   return (
     <section id="reflection" className="py-20 md:py-32 bg-background">
       <div className="container mx-auto px-4" ref={ref}>
         {/* Section Header */}
-        <div className={`text-center mb-16 transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+        <div 
+          className={`text-center mb-16 ${getAnimationClasses(isVisible, 'zoom-in', 0).className}`}
+          style={getAnimationClasses(isVisible, 'zoom-in', 0).style}
+        >
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary mb-4">
             <Brain className="w-4 h-4" />
             <span className="font-medium text-xl font-serif"> Tư duy  tổng hợp</span>
@@ -48,11 +56,12 @@ const ReflectionSection = () => {
         <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto mb-12">
           {reflectionItems.map((item, index) => {
             const Icon = item.icon;
+            const animation = getCardAnimation(index);
             return (
               <Card 
                 key={index} 
-                className={`bg-card border-border shadow-lg hover:shadow-xl transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
-                style={{ transitionDelay: `${(index + 1) * 100}ms` }}
+                className={`bg-card border-border shadow-lg hover:shadow-xl hover:-translate-y-2 transition-all duration-300 ${getAnimationClasses(isVisible, animation, (index + 1) * 150).className}`}
+                style={getAnimationClasses(isVisible, animation, (index + 1) * 150).style}
               >
                 <CardContent className="p-6">
                   <div className="flex items-center gap-3 mb-4">
@@ -71,7 +80,10 @@ const ReflectionSection = () => {
         </div>
 
         {/* Quote Card */}
-        <Card className={`max-w-3xl mx-auto bg-gradient-to-br from-primary/5 to-chart-1/5 border-primary/20 transition-all duration-700 delay-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+        <Card 
+          className={`max-w-3xl mx-auto bg-gradient-to-br from-primary/5 to-chart-1/5 border-primary/20 hover:shadow-2xl transition-all duration-500 ${getAnimationClasses(isVisible, 'blur', 700).className}`}
+          style={getAnimationClasses(isVisible, 'blur', 700).style}
+        >
           <CardContent className="p-8 text-center">
             <Quote className="w-12 h-12 text-primary/30 mx-auto mb-4" />
             <blockquote className="text-xl md:text-2xl font-medium text-foreground mb-4 italic">
