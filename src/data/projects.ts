@@ -255,12 +255,13 @@ export const projectsData: Project[] = [
     ],
     process: {
       steps: [
-        "[Bước 1: Lên ý tưởng và phác thảo]",
-        "[Bước 2: Chọn công cụ phù hợp]",
-        "[Bước 3: Thiết kế và chỉnh sửa]",
-        "[Bước 4: Hoàn thiện và xuất bản]",
+        "Bước 1: Xác định mục tiêu và thông điệp - Xác định mục tiêu truyền thông môi trường và đối tượng hướng đến. Lựa chọn chủ đề giảm rác thải nhựa và bảo vệ thiên nhiên.",
+        "Bước 2: Xây dựng ý tưởng và slogan bằng ChatGPT - Sử dụng ChatGPT để gợi ý thông điệp chiến dịch và slogan ngắn. So sánh nhiều phương án và lựa chọn slogan phù hợp nhất. Điều chỉnh lại câu chữ để phù hợp ngữ cảnh và văn hóa.",
+        "Bước 3: Tạo hình minh họa bằng DALL·E 3 - Viết prompt mô tả hình ảnh tương phản \"Before – After\". Tạo nhiều phiên bản hình minh họa. Chọn hình ảnh phù hợp nhất với mục tiêu truyền thông.",
+        "Bước 4: Thiết kế bố cục poster bằng Canva AI - Nhập hình ảnh vào Canva AI để tạo bố cục poster. Lựa chọn font chữ, màu sắc và sắp xếp bố cục. Chỉnh sửa thủ công để tăng độ tương phản và tính thẩm mỹ.",
+        "Bước 5: Hoàn thiện và đánh giá sản phẩm - Kiểm tra tổng thể poster về nội dung, màu sắc và thông điệp. Đảm bảo poster mang dấu ấn cá nhân, không phụ thuộc hoàn toàn vào AI. Xuất poster hoàn chỉnh khổ A3.",
       ],
-      tools: ["Canva", "CapCut", "Figma", "Adobe Express", "[Thêm công cụ khác]"],
+      tools: ["ChatGPT", "DALL·E 3", "Canva AI"],
     },
     analysis: {
       strengths: [
