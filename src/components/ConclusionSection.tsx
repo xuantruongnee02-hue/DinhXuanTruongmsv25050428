@@ -144,6 +144,8 @@ const ConclusionSection = () => {
               Mọi nội dung do tôi tự viết và tôi chịu trách nhiệm hoàn toàn về tính liêm chính học thuật.
               <br /><br />
               <span className="font-medium">Đinh Xuân Trườngg</span>
+              <br />
+              <span className="text-muted-foreground">Mã Sinh Viên: 25050428</span>
             </p>
           </div>
         </div>
