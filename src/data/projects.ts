@@ -328,6 +328,9 @@ export const projectsData: Project[] = [
       tools: ["ChatGPT", "Grammarly", "Turnitin"],
     },
     evidence: [project6Img1],
+    documents: [
+      { name: "Bài 6 - Chấm chéo", url: "/documents/project6-doc.docx" },
+    ],
     analysis: {
       strengths: [
         "[Điểm mạnh 1]",
