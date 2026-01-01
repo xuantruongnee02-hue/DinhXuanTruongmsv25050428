@@ -287,7 +287,7 @@ export const projectsData: Project[] = [
         "Có thể bổ sung thêm phản hồi người xem để đánh giá hiệu quả truyền thông",
         "Thiếu sót trong minh chứng và kiến thức thực hiện",
       ],
-      ifRedone: "Nếu làm lại, tôi sẽ thu thập phản hồi từ người xem để đánh giá hiệu quả truyền thông và cải thiện chất lượng hình ảnh AI.",
+      ifRedone: "Nếu làm lại, tôi sẽ dành nhiều thời gian và công sức tích lũy kiến thức để tạo thành phẩm hiệu quả hơn. Đồng thời thu thập phản hồi từ người xem để đánh giá hiệu quả truyền thông và cải thiện chất lượng hình ảnh AI.",
       progress: "Từ chỗ chỉ sử dụng AI một cách thử nghiệm, tôi đã biết xây dựng prompt có mục tiêu rõ ràng. Hiểu rõ AI là công cụ hỗ trợ, không thay thế tư duy sáng tạo cá nhân. Nâng cao kỹ năng kết hợp công nghệ số với tư duy thiết kế và đạo đức sử dụng AI.",
     },
     aiUsage: {
