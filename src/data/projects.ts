@@ -154,19 +154,19 @@ export const projectsData: Project[] = [
     },
     analysis: {
       strengths: [
-        "Xác định rõ chủ đề nghiên cứu và mục tiêu học thuật",
-        "Sử dụng nhiều nguồn đáng tin cậy (Google Scholar, Microsoft Academic, tạp chí khoa học, sách chuyên khảo)",
-        "Xây dựng bộ từ khóa phù hợp, giúp mở rộng và nâng cao chất lượng tìm kiếm",
-        "Áp dụng tiêu chí đánh giá nguồn rõ ràng (tác giả, cơ quan xuất bản, phương pháp, trích dẫn, tính cập nhật)",
-        "Trình bày kết quả bằng bảng tổng hợp, dễ so sánh và đánh giá",
+        "Xác định rõ 3 loại tác vụ học tập: tóm tắt tài liệu, giải thích khái niệm, tạo câu hỏi ôn tập",
+        "Xây dựng 3 cấp độ prompt (cơ bản – cải tiến – nâng cao) cho từng tác vụ, thể hiện quá trình thử nghiệm rõ ràng",
+        "Prompt nâng cao có sử dụng vai trò (role prompting) và cấu trúc đầu ra cụ thể, giúp AI trả lời đúng mục tiêu",
+        "Có bảng so sánh kết quả và nhận xét, cho thấy sự khác biệt rõ ràng giữa các phiên bản prompt",
+        "Phân tích đúng các kỹ thuật viết prompt hiệu quả như role prompting, chia bước, định hướng đối tượng người học",
       ],
       improvements: [
-        "Phân tích nội dung các tài liệu còn thiên về mô tả, chưa so sánh sâu giữa các nghiên cứu",
-        "Một số nguồn mở chưa được làm rõ giới hạn khi sử dụng cho mục đích học thuật",
-        "Lập luận tổng hợp giữa các nguồn chưa thực sự nổi bật",
+        "Phần phân tích kết quả vẫn còn ngắn, chưa đi sâu giải thích vì sao prompt nâng cao hiệu quả hơn trong từng trường hợp cụ thể",
+        "Chưa minh họa thêm bằng trích đoạn câu trả lời AI để tăng tính trực quan",
+        "Có thể mở rộng thêm một tác vụ thực tế khác (ví dụ: viết kế hoạch học tập, tạo đề cương bài học)",
       ],
       ifRedone: "",
-      progress: "Chuyển từ tìm kiếm thông tin cảm tính sang tìm kiếm học thuật có định hướng. Biết đánh giá độ tin cậy của nguồn trước khi sử dụng. Hình thành tư duy nghiên cứu và ý thức liêm chính học thuật.",
+      progress: "Nhận thức rõ rằng chất lượng kết quả AI phụ thuộc trực tiếp vào cách đặt prompt. Biết cách chuyển từ prompt mơ hồ sang prompt có mục tiêu, cấu trúc và đối tượng rõ ràng. Hình thành kỹ năng sử dụng AI có kiểm soát, có chiến lược, không dùng AI một cách cảm tính như trước.",
     },
     aiUsage: {
       howUsed: [
