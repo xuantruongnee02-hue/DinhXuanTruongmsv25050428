@@ -143,6 +143,11 @@ export const projectsData: Project[] = [
       ],
       tools: ["ChatGPT", "Gemini"],
     },
+    documents: [
+      { name: "Bài 3 - Giải thích khái niệm.docx", url: "/documents/project3-doc1.docx" },
+      { name: "Bài 3 - Tóm tắt tài liệu.docx", url: "/documents/project3-doc2.docx" },
+      { name: "Bài 3 - Tạo câu hỏi ôn tập.docx", url: "/documents/project3-doc3.docx" },
+    ],
     analysis: {
       strengths: [
         "[Điểm mạnh 1]",
