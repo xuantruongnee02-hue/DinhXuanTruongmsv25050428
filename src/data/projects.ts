@@ -333,15 +333,22 @@ export const projectsData: Project[] = [
     ],
     analysis: {
       strengths: [
-        "[Điểm mạnh 1]",
-        "[Điểm mạnh 2]",
+        "Phân tích rõ ràng bối cảnh sử dụng AI trong học thuật tại Việt Nam",
+        "Lựa chọn ví dụ điển hình (BUV) để so sánh và rút ra bài học thực tiễn",
+        "Thực hiện nhiệm vụ học tập cụ thể có sử dụng AI minh bạch",
+        "Xây dựng bộ nguyên tắc cá nhân về sử dụng AI có trách nhiệm",
+        "Thể hiện rõ vai trò tư duy và trách nhiệm của người học",
       ],
       improvements: [
-        "[Cần cải thiện 1]",
-        "[Cần cải thiện 2]",
+        "Một số nhận định còn mang tính định tính, có thể bổ sung thêm số liệu khảo sát",
+        "Phần so sánh giữa các trường đại học Việt Nam có thể mở rộng hơn",
+        "Có thể minh họa thêm bằng tình huống vi phạm liêm chính cụ thể",
+        "Ít ảnh để làm minh chứng cho tìm tòi và thông tin",
+        "Còn thiếu nhiều kiến thức và việc chọn lọc các thông tin vấn đề",
+        "Một số thông tin dữ liệu chưa xác thực hết còn thiếu sót",
       ],
-      ifRedone: "[Nếu làm lại, tôi sẽ...]",
-      progress: "[Sự tiến bộ của tôi...]",
+      ifRedone: "Nếu làm lại, tôi sẽ bổ sung thêm số liệu khảo sát và minh họa bằng các tình huống vi phạm liêm chính cụ thể.",
+      progress: "Nhận thức rõ ranh giới giữa \"AI hỗ trợ\" và \"AI làm hộ\". Biết cách sử dụng AI có kiểm soát và minh bạch trong học thuật. Hình thành tư duy đạo đức và liêm chính khi ứng dụng công nghệ số. Nâng cao kỹ năng tự đánh giá và chịu trách nhiệm với sản phẩm học tập. Hiểu cách tìm hiểu và liêm chính học thuật. Sử dụng AI cách phù hợp và công bằng, không lạm dụng quá mức.",
     },
     aiUsage: {
       howUsed: [
