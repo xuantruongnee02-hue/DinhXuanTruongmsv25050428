@@ -9,9 +9,7 @@ const AboutSection = () => {
             <User className="w-4 h-4" />
             <span className="text-sm font-medium">Giới thiệu bản thân</span>
           </div>
-          <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4 animate-fade-in-up">
-            Về tôi
-          </h2>
+          <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4 animate-fade-in-up">About me</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto animate-fade-in-up animation-delay-100">
             Chào mừng bạn đến với portfolio của tôi – nơi ghi lại hành trình học tập và phát triển trong lĩnh vực công nghệ số
           </p>
