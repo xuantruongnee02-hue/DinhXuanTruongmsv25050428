@@ -170,8 +170,7 @@ export const projectsData: Project[] = [
     },
     aiUsage: {
       howUsed: [
-        "[Cách dùng AI 1]",
-        "[Cách dùng AI 2]",
+        "Dùng AI để kiểm chứng kết quả viết prompt sau khi cải thiện, tôi đã chọn lọc và phân tích",
       ],
       commitment:
         "Tôi cam kết không sao chép nguyên văn từ AI. Mọi nội dung đều được tôi đọc, hiểu, chọn lọc và viết lại bằng ngôn ngữ của mình.",
