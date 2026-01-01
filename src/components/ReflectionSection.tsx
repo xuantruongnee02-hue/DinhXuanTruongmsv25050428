@@ -18,7 +18,7 @@ const reflectionItems = [{
 }, {
   icon: Shield,
   title: "Nhận thức về liêm chính học thuật",
-  content: "[Viết về sự thay đổi trong nhận thức của bạn về liêm chính học thuật. Bạn hiểu thế nào về việc sử dụng AI có trách nhiệm? Ranh giới giữa tham khảo và sao chép?]",
+  content: "Thông qua các bài tập và việc sử dụng AI trong học tập, tôi nhận thức rõ hơn rằng liêm chính học thuật không chỉ là tránh sao chép hay gian lận, mà còn là trung thực với quá trình học của chính mình. Việc sử dụng AI cần minh bạch, có kiểm soát và không làm thay thế tư duy cá nhân. Tôi hiểu rằng mọi sản phẩm học thuật cuối cùng đều phải phản ánh sự hiểu biết và trách nhiệm của người học, và AI chỉ nên đóng vai trò là công cụ hỗ trợ trong quá trình đó. Hiểu biết về liêm chính học thuật nhiều hơn và ý thức được điều đó rất quan trọng trong học tập và cuộc sống.",
   color: "chart-3"
 }];
 const ReflectionSection = () => {
