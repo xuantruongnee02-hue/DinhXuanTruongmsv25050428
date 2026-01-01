@@ -57,12 +57,10 @@ export const projectsData: Project[] = [
     },
     aiUsage: {
       howUsed: [
-        "[Cách dùng AI 1: Ví dụ - Sử dụng ChatGPT để giải thích thuật ngữ kỹ thuật]",
-        "[Cách dùng AI 2: Ví dụ - Tham khảo ý tưởng trình bày]",
-        "[Cách dùng AI 3: Ví dụ - Chỉnh sửa ngữ pháp câu văn]",
+        "Bài này tôi tự làm và nghiên cứu, không sử dụng AI",
       ],
       commitment:
-        "Tôi cam kết không sao chép nguyên văn từ AI. Mọi nội dung đều được tôi đọc, hiểu, chọn lọc và viết lại bằng ngôn ngữ của mình. Tôi chịu trách nhiệm hoàn toàn về tính liêm chính học thuật của bài làm này.",
+        "Tôi cam kết bài làm này hoàn toàn do tôi tự thực hiện thông qua việc nghiên cứu và thực hành. Tôi chịu trách nhiệm hoàn toàn về tính liêm chính học thuật của bài làm này.",
     },
   },
   {
