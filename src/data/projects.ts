@@ -269,6 +269,9 @@ export const projectsData: Project[] = [
       tools: ["ChatGPT", "DALL·E 3", "Canva AI"],
     },
     evidence: [project5Img1, project5Img2, project5Img3, project5Img4],
+    documents: [
+      { name: "Bài 5 - Chấm chéo", url: "/documents/project5-doc.docx" },
+    ],
     analysis: {
       strengths: [
         "[Điểm mạnh 1]",
