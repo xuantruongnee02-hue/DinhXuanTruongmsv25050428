@@ -275,15 +275,20 @@ export const projectsData: Project[] = [
     ],
     analysis: {
       strengths: [
-        "[Điểm mạnh 1]",
-        "[Điểm mạnh 2]",
+        "Kết hợp hiệu quả nhiều công cụ AI trong cùng một quy trình sáng tạo",
+        "Sử dụng ChatGPT để định hướng ý tưởng, không chỉ sao chép kết quả",
+        "Hình ảnh tạo từ DALL·E 3 thể hiện rõ thông điệp môi trường \"Before – After\"",
+        "Canva AI hỗ trợ bố cục nhanh, giúp poster có hình thức chuyên nghiệp",
+        "Thể hiện rõ vai trò kiểm soát và chỉnh sửa của người thiết kế, sử dụng linh hoạt các công cụ AI",
       ],
       improvements: [
-        "[Cần cải thiện 1]",
-        "[Cần cải thiện 2]",
+        "Một số hình ảnh AI tạo ra còn mang tính \"đồ họa\", chưa hoàn toàn thực tế",
+        "Bố cục gợi ý từ Canva AI còn đơn giản, cần chỉnh sửa thủ công nhiều hơn",
+        "Có thể bổ sung thêm phản hồi người xem để đánh giá hiệu quả truyền thông",
+        "Thiếu sót trong minh chứng và kiến thức thực hiện",
       ],
-      ifRedone: "[Nếu làm lại, tôi sẽ...]",
-      progress: "[Sự tiến bộ của tôi...]",
+      ifRedone: "Nếu làm lại, tôi sẽ thu thập phản hồi từ người xem để đánh giá hiệu quả truyền thông và cải thiện chất lượng hình ảnh AI.",
+      progress: "Từ chỗ chỉ sử dụng AI một cách thử nghiệm, tôi đã biết xây dựng prompt có mục tiêu rõ ràng. Hiểu rõ AI là công cụ hỗ trợ, không thay thế tư duy sáng tạo cá nhân. Nâng cao kỹ năng kết hợp công nghệ số với tư duy thiết kế và đạo đức sử dụng AI.",
     },
     aiUsage: {
       howUsed: [
