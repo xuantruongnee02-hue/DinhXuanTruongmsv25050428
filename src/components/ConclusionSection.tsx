@@ -75,15 +75,23 @@ const ConclusionSection = () => {
                   <ul className="space-y-2 text-muted-foreground">
                     <li className="flex items-start gap-2">
                       <CheckCircle className="w-4 h-4 text-chart-1 mt-1 flex-shrink-0" />
-                      <span>[Kỹ năng quan trọng 1]</span>
+                      <span>Biết cách sử dụng AI làm việc có chọn lọc đúng cách</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle className="w-4 h-4 text-chart-1 mt-1 flex-shrink-0" />
-                      <span>[Kỹ năng quan trọng 2]</span>
+                      <span>Biết cách sử dụng công cụ làm việc nhóm thành thạo</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle className="w-4 h-4 text-chart-1 mt-1 flex-shrink-0" />
-                      <span>[Kỹ năng quan trọng 3]</span>
+                      <span>Kỹ năng giao tiếp trực tuyến</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle className="w-4 h-4 text-chart-1 mt-1 flex-shrink-0" />
+                      <span>Biết sử dụng thành thạo công cụ tạo video, hình ảnh và biết cách edit</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle className="w-4 h-4 text-chart-1 mt-1 flex-shrink-0" />
+                      <span>Biết cách sử dụng phối hợp các loại hình AI</span>
                     </li>
                   </ul>
                 </div>
