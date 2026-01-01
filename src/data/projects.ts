@@ -18,6 +18,7 @@ export const projectsData: Project[] = [
         "Bước 2: Phân chia thư mục theo từng bài học - Trong thư mục Portfolio, tôi tạo các thư mục con cho từng bài tập (Bài 1 đến Bài 6) nhằm phân loại nội dung rõ ràng.",
         "Bước 3: Đặt tên file khoa học và nhất quán - Các file được đặt tên theo cấu trúc: Tên bài – nội dung – ngày thực hiện để dễ nhận diện và tìm kiếm.",
         "Bước 4: Sắp xếp tài liệu đúng vị trí - Tôi lưu các file văn bản, hình ảnh và video đúng thư mục tương ứng, tránh lưu rải rác gây nhầm lẫn.",
+        "Bước 5: Kiểm tra và cập nhật định kỳ - Tôi thường xuyên rà soát lại thư mục để đảm bảo tài liệu luôn được sắp xếp gọn gàng và cập nhật.",
       ],
       tools: ["Google Docs", "ChatGPT", "Canva", "[Thêm công cụ khác]"],
     },
