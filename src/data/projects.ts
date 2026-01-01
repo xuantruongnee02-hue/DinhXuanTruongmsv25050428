@@ -347,7 +347,7 @@ export const projectsData: Project[] = [
         "Còn thiếu nhiều kiến thức và việc chọn lọc các thông tin vấn đề",
         "Một số thông tin dữ liệu chưa xác thực hết còn thiếu sót",
       ],
-      ifRedone: "Nếu làm lại, tôi sẽ bổ sung thêm số liệu khảo sát và minh họa bằng các tình huống vi phạm liêm chính cụ thể.",
+      ifRedone: "Nếu làm lại, tôi sẽ điều chỉnh và cẩn thận hơn với nội dung dữ liệu, dành nhiều thời gian tìm hiểu và lọc bớt nội dung phù hợp. Đồng thời bổ sung thêm số liệu khảo sát và minh họa bằng các tình huống vi phạm liêm chính cụ thể.",
       progress: "Nhận thức rõ ranh giới giữa \"AI hỗ trợ\" và \"AI làm hộ\". Biết cách sử dụng AI có kiểm soát và minh bạch trong học thuật. Hình thành tư duy đạo đức và liêm chính khi ứng dụng công nghệ số. Nâng cao kỹ năng tự đánh giá và chịu trách nhiệm với sản phẩm học tập. Hiểu cách tìm hiểu và liêm chính học thuật. Sử dụng AI cách phù hợp và công bằng, không lạm dụng quá mức.",
     },
     aiUsage: {
