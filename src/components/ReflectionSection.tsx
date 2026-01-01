@@ -65,7 +65,7 @@ const ReflectionSection = () => {
           <CardContent className="p-8 text-center">
             <Quote className="w-12 h-12 text-primary/30 mx-auto mb-4" />
             <blockquote className="text-xl md:text-2xl font-medium text-foreground mb-4 italic">
-              "[Viết một câu quote hoặc suy nghĩ tâm đắc nhất của bạn sau quá trình học môn này]"
+              "Công nghệ chỉ thực sự có giá trị khi người học biết kiểm soát nó; AI không thay tôi học, mà buộc tôi phải học đúng cách hơn. Làm chủ được môi trường AI."
             </blockquote>
             <p className="text-muted-foreground">— [Tên của bạn]</p>
           </CardContent>
