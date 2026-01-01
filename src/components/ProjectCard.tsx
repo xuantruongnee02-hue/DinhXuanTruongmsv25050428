@@ -14,6 +14,7 @@ export interface Project {
     steps: string[];
     tools: string[];
   };
+  evidence?: string[];
   analysis: {
     strengths: string[];
     improvements: string[];
@@ -137,19 +138,34 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
               <h4 className="font-bold text-foreground">3. Minh chứng học tập</h4>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
-              {[1, 2, 3, 4, 5].map((num) => (
-                <div
-                  key={num}
-                  className="aspect-square rounded-lg bg-accent border-2 border-dashed border-border flex items-center justify-center hover:border-primary/50 transition-colors cursor-pointer"
-                >
-                  <div className="text-center p-2">
-                    <Image className="w-8 h-8 text-muted-foreground mx-auto mb-2" />
-                    <p className="text-muted-foreground text-xs">
-                      Ảnh {num}
-                    </p>
+              {project.evidence && project.evidence.length > 0 ? (
+                project.evidence.map((img, idx) => (
+                  <div
+                    key={idx}
+                    className="aspect-square rounded-lg overflow-hidden border border-border"
+                  >
+                    <img
+                      src={img}
+                      alt={`Minh chứng ${idx + 1}`}
+                      className="w-full h-full object-cover hover:scale-105 transition-transform cursor-pointer"
+                    />
                   </div>
-                </div>
-              ))}
+                ))
+              ) : (
+                [1, 2, 3, 4, 5].map((num) => (
+                  <div
+                    key={num}
+                    className="aspect-square rounded-lg bg-accent border-2 border-dashed border-border flex items-center justify-center hover:border-primary/50 transition-colors cursor-pointer"
+                  >
+                    <div className="text-center p-2">
+                      <Image className="w-8 h-8 text-muted-foreground mx-auto mb-2" />
+                      <p className="text-muted-foreground text-xs">
+                        Ảnh {num}
+                      </p>
+                    </div>
+                  </div>
+                ))
+              )}
             </div>
           </div>
 
