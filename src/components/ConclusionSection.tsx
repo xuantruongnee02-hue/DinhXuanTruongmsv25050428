@@ -3,13 +3,16 @@ import { Card, CardContent } from "@/components/ui/card";
 import { useScrollAnimation } from "@/hooks/use-scroll-animation";
 
 const ConclusionSection = () => {
-  const { ref, isVisible } = useScrollAnimation(0.1);
+  const { ref, isVisible, getAnimationClasses } = useScrollAnimation(0.1, 'fade-up');
 
   return (
     <section id="conclusion" className="py-20 md:py-32 bg-accent/30">
       <div className="container mx-auto px-4" ref={ref}>
         {/* Section Header */}
-        <div className={`text-center mb-16 transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+        <div 
+          className={`text-center mb-16 ${getAnimationClasses(isVisible, 'zoom-in', 0).className}`}
+          style={getAnimationClasses(isVisible, 'zoom-in', 0).style}
+        >
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary mb-4">
             <Trophy className="w-4 h-4" />
             <span className="text-sm font-medium">Tổng kết</span>
@@ -24,7 +27,10 @@ const ConclusionSection = () => {
 
         <div className="max-w-4xl mx-auto space-y-8">
           {/* Experience Card */}
-          <Card className={`bg-card border-border shadow-lg transition-all duration-700 delay-100 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+          <Card 
+            className={`bg-card border-border shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300 ${getAnimationClasses(isVisible, 'fade-right', 100).className}`}
+            style={getAnimationClasses(isVisible, 'fade-right', 100).style}
+          >
             <CardContent className="p-8">
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center">
@@ -39,7 +45,10 @@ const ConclusionSection = () => {
           </Card>
 
           {/* Key Learnings */}
-          <Card className={`bg-card border-border shadow-lg transition-all duration-700 delay-200 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+          <Card 
+            className={`bg-card border-border shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300 ${getAnimationClasses(isVisible, 'fade-left', 200).className}`}
+            style={getAnimationClasses(isVisible, 'fade-left', 200).style}
+          >
             <CardContent className="p-8">
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-12 h-12 rounded-xl bg-chart-1/10 flex items-center justify-center">
@@ -103,7 +112,10 @@ const ConclusionSection = () => {
           </Card>
 
           {/* Challenges */}
-          <Card className={`bg-card border-border shadow-lg transition-all duration-700 delay-300 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+          <Card 
+            className={`bg-card border-border shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300 ${getAnimationClasses(isVisible, 'fade-right', 300).className}`}
+            style={getAnimationClasses(isVisible, 'fade-right', 300).style}
+          >
             <CardContent className="p-8">
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-12 h-12 rounded-xl bg-chart-2/10 flex items-center justify-center">
@@ -125,7 +137,10 @@ const ConclusionSection = () => {
           </Card>
 
           {/* Pride */}
-          <Card className={`bg-gradient-to-br from-primary/5 to-chart-1/5 border-primary/20 shadow-lg transition-all duration-700 delay-400 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+          <Card 
+            className={`bg-gradient-to-br from-primary/5 to-chart-1/5 border-primary/20 shadow-lg hover:shadow-2xl transition-all duration-500 ${getAnimationClasses(isVisible, 'zoom-in', 400).className}`}
+            style={getAnimationClasses(isVisible, 'zoom-in', 400).style}
+          >
             <CardContent className="p-8">
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center">
@@ -140,7 +155,10 @@ const ConclusionSection = () => {
           </Card>
 
           {/* Final Commitment */}
-          <div className={`text-center p-8 rounded-2xl bg-secondary text-secondary-foreground transition-all duration-700 delay-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+          <div 
+            className={`text-center p-8 rounded-2xl bg-secondary text-secondary-foreground hover:scale-[1.02] transition-all duration-500 ${getAnimationClasses(isVisible, 'blur', 500).className}`}
+            style={getAnimationClasses(isVisible, 'blur', 500).style}
+          >
             <h3 className="text-xl font-bold mb-4">Cam kết cuối cùng</h3>
             <p className="leading-relaxed max-w-2xl mx-auto">
               Website này được xây dựng với mục tiêu học tập nghiêm túc. 

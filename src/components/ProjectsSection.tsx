@@ -1,16 +1,24 @@
 import { FolderOpen } from "lucide-react";
 import ProjectCard from "./ProjectCard";
 import { projectsData } from "@/data/projects";
-import { useScrollAnimation } from "@/hooks/use-scroll-animation";
+import { useScrollAnimation, AnimationType } from "@/hooks/use-scroll-animation";
 
 const ProjectsSection = () => {
-  const { ref, isVisible } = useScrollAnimation(0.1);
+  const { ref, isVisible, getAnimationClasses } = useScrollAnimation(0.1, 'fade-up');
+
+  const getProjectAnimation = (index: number): AnimationType => {
+    const animations: AnimationType[] = ['fade-left', 'fade-right', 'zoom-in', 'blur', 'fade-up', 'fade-down'];
+    return animations[index % animations.length];
+  };
 
   return (
     <section id="projects" className="py-20 md:py-32 bg-accent/30">
       <div className="container mx-auto px-4" ref={ref}>
         {/* Section Header */}
-        <div className={`text-center mb-16 transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+        <div 
+          className={`text-center mb-16 ${getAnimationClasses(isVisible, 'zoom-in', 0).className}`}
+          style={getAnimationClasses(isVisible, 'zoom-in', 0).style}
+        >
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary mb-4">
             <FolderOpen className="w-4 h-4" />
             <span className="text-sm font-medium">Dự án học tập</span>
@@ -29,8 +37,8 @@ const ProjectsSection = () => {
           {projectsData.map((project, index) => (
             <div
               key={project.id}
-              className={`transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
-              style={{ transitionDelay: `${(index + 1) * 100}ms` }}
+              className={`hover:-translate-y-1 hover:shadow-xl transition-all duration-300 ${getAnimationClasses(isVisible, getProjectAnimation(index), (index + 1) * 150).className}`}
+              style={getAnimationClasses(isVisible, getProjectAnimation(index), (index + 1) * 150).style}
             >
               <ProjectCard project={project} index={index} />
             </div>
