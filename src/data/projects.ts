@@ -98,15 +98,18 @@ export const projectsData: Project[] = [
     },
     analysis: {
       strengths: [
-        "[Điểm mạnh 1]",
-        "[Điểm mạnh 2]",
+        "Xác định rõ chủ đề và mục tiêu tìm kiếm thông tin học thuật",
+        "Sử dụng đa dạng nguồn đáng tin cậy (Google Scholar, Microsoft Academic, tạp chí khoa học, sách chuyên khảo)",
+        "Áp dụng các tiêu chí đánh giá nguồn rõ ràng: tác giả, cơ quan xuất bản, phương pháp nghiên cứu, trích dẫn và tính cập nhật",
+        "Trình bày kết quả tìm kiếm có hệ thống và logic",
       ],
       improvements: [
-        "[Cần cải thiện 1]",
-        "[Cần cải thiện 2]",
+        "Phân tích nội dung các tài liệu còn thiên về mô tả, chưa so sánh sâu giữa các quan điểm nghiên cứu",
+        "Chưa làm rõ mối liên hệ giữa các nguồn để hình thành lập luận tổng hợp",
+        "Cần rút gọn một số phần để nội dung súc tích hơn",
       ],
-      ifRedone: "[Nếu làm lại, tôi sẽ...]",
-      progress: "[Sự tiến bộ của tôi...]",
+      ifRedone: "",
+      progress: "Chuyển từ tìm kiếm thông tin cảm tính sang tiếp cận nguồn học thuật có chọn lọc. Biết đánh giá độ tin cậy của thông tin trước khi sử dụng. Hình thành tư duy nghiên cứu học thuật và ý thức liêm chính trong khai thác dữ liệu.",
     },
     aiUsage: {
       howUsed: [
