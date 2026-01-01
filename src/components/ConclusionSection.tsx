@@ -115,7 +115,7 @@ const ConclusionSection = () => {
                 </p>
                 <p>
                   <span className="font-medium text-foreground">Cách vượt qua: </span>
-                  [Bạn đã làm gì để vượt qua những khó khăn đó? Bài học rút ra?]
+                  Học tập theo những gì thầy cô đã soạn trên LMS phần bài học công nghệ số, từng bước phát triển các kĩ năng cần thiết. Tìm hiểu thêm những tài liệu khác từ YouTube, TikTok, ChatGPT và từ bạn bè. Thầy cô giúp đỡ, hỗ trợ sinh viên 24/7 với cư xử nhẹ nhàng, chỉ bảo và hướng dẫn cách khắc phục.
                 </p>
               </div>
             </CardContent>
