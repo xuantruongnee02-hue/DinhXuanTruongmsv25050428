@@ -24,7 +24,7 @@ const Footer = () => {
           {/* Copyright */}
           <p className="text-sm text-secondary-foreground/60 flex items-center gap-1">
             © {currentYear} • Được tạo với{" "}
-            <Heart className="w-4 h-4 text-destructive fill-current" /> bởi Xuân Trường Dev
+            <Heart className="w-4 h-4 text-destructive fill-current" /> bởi Xuân Trườngg
           </p>
 
           {/* Academic Integrity Note */}
