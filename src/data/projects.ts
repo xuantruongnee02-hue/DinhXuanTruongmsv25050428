@@ -126,7 +126,7 @@ export const projectsData: Project[] = [
     chapter: "Chương 3",
     title: "Tổng quan về trí tuệ nhân tạo",
     summary:
-      "[Tóm tắt 3-4 dòng: Tìm hiểu về khái niệm AI, các ứng dụng phổ biến và tác động của AI đến cuộc sống. Phát triển nhận thức về cách sử dụng AI có trách nhiệm.]",
+      "Bài tập giúp tôi hiểu các khái niệm cơ bản về trí tuệ nhân tạo, cách AI hoạt động và những lĩnh vực ứng dụng phổ biến trong đời sống. Thông qua việc tìm hiểu và tổng hợp thông tin từ nhiều nguồn, tôi nhận thức rõ hơn về tiềm năng cũng như những thách thức khi sử dụng AI. Qua đó, tôi hình thành cái nhìn tổng quan và có định hướng đúng đắn trong việc tiếp cận công nghệ AI.",
     objectives: [
       "[Mục tiêu 1: Hiểu khái niệm cơ bản về AI]",
       "[Mục tiêu 2: Nhận biết các ứng dụng AI trong đời sống]",
