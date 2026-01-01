@@ -21,6 +21,11 @@ import project4Img6 from "@/assets/evidence/project4-img6.png";
 import project4Img7 from "@/assets/evidence/project4-img7.jpg";
 import project4Img8 from "@/assets/evidence/project4-img8.png";
 
+import project5Img1 from "@/assets/evidence/project5-img1.png";
+import project5Img2 from "@/assets/evidence/project5-img2.png";
+import project5Img3 from "@/assets/evidence/project5-img3.png";
+import project5Img4 from "@/assets/evidence/project5-img4.png";
+
 export const projectsData: Project[] = [
   {
     id: 1,
@@ -263,6 +268,7 @@ export const projectsData: Project[] = [
       ],
       tools: ["ChatGPT", "DALL·E 3", "Canva AI"],
     },
+    evidence: [project5Img1, project5Img2, project5Img3, project5Img4],
     analysis: {
       strengths: [
         "[Điểm mạnh 1]",
