@@ -6,6 +6,12 @@ import project1Img3 from "@/assets/evidence/project1-img3.jpg";
 import project1Img4 from "@/assets/evidence/project1-img4.jpg";
 import project1Img5 from "@/assets/evidence/project1-img5.jpg";
 
+import project2Img1 from "@/assets/evidence/project2-img1.png";
+import project2Img2 from "@/assets/evidence/project2-img2.png";
+import project2Img3 from "@/assets/evidence/project2-img3.png";
+import project2Img4 from "@/assets/evidence/project2-img4.png";
+import project2Img5 from "@/assets/evidence/project2-img5.png";
+
 export const projectsData: Project[] = [
   {
     id: 1,
@@ -85,6 +91,7 @@ export const projectsData: Project[] = [
       ],
       tools: ["Google Scholar", "Microsoft Academic", "Tạp chí khoa học chuyên ngành", "Sách chuyên khảo"],
     },
+    evidence: [project2Img1, project2Img2, project2Img3, project2Img4, project2Img5],
     analysis: {
       strengths: [
         "[Điểm mạnh 1]",
