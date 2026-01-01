@@ -181,7 +181,7 @@ export const projectsData: Project[] = [
     chapter: "Chương 4",
     title: "Giao tiếp và hợp tác trong môi trường số",
     summary:
-      "[Tóm tắt 3-4 dòng: Phát triển kỹ năng làm việc nhóm trực tuyến, sử dụng các công cụ cộng tác số và giao tiếp chuyên nghiệp trong môi trường học thuật.]",
+      "Bài tập tập trung vào việc sử dụng các công cụ hợp tác trực tuyến trong quá trình thực hiện dự án nhóm với chủ đề \"Ứng dụng của trí tuệ nhân tạo trong giáo dục đại học\". Trong bối cảnh dự án được triển khai hoàn toàn trên môi trường số, nhóm đã ứng dụng các công cụ như Trello, Google Docs/Slides/Drive và Discord để quản lý nhiệm vụ, cộng tác nội dung và giao tiếp hiệu quả. Thông qua bài tập này, tôi không chỉ rèn luyện kỹ năng làm việc nhóm trong môi trường trực tuyến mà còn hiểu rõ hơn vai trò của công cụ số trong việc tổ chức công việc, đảm bảo tiến độ và nâng cao chất lượng sản phẩm chung.",
     objectives: [
       "[Mục tiêu 1: Sử dụng thành thạo các công cụ cộng tác]",
       "[Mục tiêu 2: Phát triển kỹ năng giao tiếp trực tuyến]",
