@@ -50,7 +50,7 @@ const ConclusionSection = () => {
                   <ul className="space-y-2 text-muted-foreground">
                     <li className="flex items-start gap-2">
                       <CheckCircle className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
-                      <span>[Kiến thức quan trọng 1]</span>
+                      <span>Hiểu biết về cách viết câu prompt</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
