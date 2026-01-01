@@ -191,12 +191,15 @@ export const projectsData: Project[] = [
     ],
     process: {
       steps: [
-        "[Bước 1: Thiết lập nhóm làm việc online]",
-        "[Bước 2: Phân công và theo dõi tiến độ]",
-        "[Bước 3: Họp nhóm và trao đổi ý kiến]",
-        "[Bước 4: Hoàn thành sản phẩm nhóm]",
+        "Bước 1: Khởi động và thống nhất dự án - Họp nhóm trực tuyến qua Discord để chọn chủ đề \"Ứng dụng AI trong giáo dục đại học\". Thống nhất mục tiêu dự án, sản phẩm đầu ra (báo cáo + slide thuyết trình) và thời gian thực hiện.",
+        "Bước 2: Thiết lập công cụ làm việc nhóm - Tạo bảng Trello để quản lý nhiệm vụ. Tạo thư mục chung trên Google Drive và phân quyền chỉnh sửa cho các thành viên. Tạo server Discord riêng cho nhóm để giao tiếp và họp nhóm.",
+        "Bước 3: Phân công nhiệm vụ và lập kế hoạch - Chia nhiệm vụ cho từng thành viên trên Trello theo các cột: To Do – In Progress – Review – Done. Gắn deadline, checklist và người phụ trách cho từng nhiệm vụ. Quy định cách cập nhật tiến độ hàng ngày.",
+        "Bước 4: Thu thập tài liệu và viết nội dung - Các thành viên thu thập tài liệu theo phần được phân công. Soạn thảo nội dung trực tiếp trên Google Docs để mọi người có thể chỉnh sửa đồng thời. Cập nhật trạng thái công việc thường xuyên trên Trello.",
+        "Bước 5: Chỉnh sửa và hoàn thiện nội dung - Họp nhóm qua Discord để rà soát nội dung và thống nhất bố cục báo cáo. Sử dụng chế độ Suggestion trên Google Docs để tránh xung đột chỉnh sửa. Bổ sung hình ảnh, ví dụ và chỉnh sửa các phần trùng lặp.",
+        "Bước 6: Thiết kế slide và chuẩn bị thuyết trình - Thiết kế slide trên Google Slides theo nội dung đã hoàn thiện. Phân chia nội dung thuyết trình cho từng thành viên. Tập dượt thuyết trình qua voice chat trên Discord.",
+        "Bước 7: Kiểm tra cuối và nộp bài - Kiểm tra lại toàn bộ file trong Google Drive (báo cáo, slide). Đảm bảo định dạng thống nhất và đầy đủ nội dung. Xuất file và nộp bài đúng thời hạn theo yêu cầu giảng viên.",
       ],
-      tools: ["Google Drive", "Trello", "Zoom", "Notion", "[Thêm công cụ khác]"],
+      tools: ["Discord", "Trello", "Google Drive", "Google Docs", "Google Slides"],
     },
     analysis: {
       strengths: [
