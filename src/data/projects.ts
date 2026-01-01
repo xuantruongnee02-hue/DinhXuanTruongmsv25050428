@@ -316,12 +316,14 @@ export const projectsData: Project[] = [
     ],
     process: {
       steps: [
-        "[Bước 1: Nghiên cứu về an toàn mạng]",
-        "[Bước 2: Tìm hiểu các hình thức vi phạm liêm chính]",
-        "[Bước 3: Thực hành bảo vệ thông tin]",
-        "[Bước 4: Cam kết và áp dụng vào học tập]",
+        "Bước 1: Xác định vấn đề và mục tiêu nghiên cứu - Nhận diện sự phổ biến của AI tạo sinh trong học tập sinh viên. Xác định mục tiêu phân tích cơ hội, rủi ro và vấn đề đạo đức khi sử dụng AI.",
+        "Bước 2: Thu thập và phân tích bối cảnh chính sách - Tìm hiểu thực trạng sử dụng AI tại các trường đại học Việt Nam. Phân tích các quy định liên quan đến liêm chính học thuật và chống đạo văn.",
+        "Bước 3: Nghiên cứu trường hợp điển hình (BUV) - Phân tích cách BUV xây dựng khung sử dụng AI theo cấp độ cho phép. Đánh giá ưu điểm của việc minh bạch và hướng dẫn rõ mức độ dùng AI.",
+        "Bước 4: Thực hiện một nhiệm vụ học tập có sử dụng AI - Lựa chọn nhiệm vụ viết bài luận học thuật 1500 từ. Xác định rõ các giai đoạn được phép dùng AI (gợi ý ý tưởng, lập dàn ý, chỉnh sửa ngôn ngữ). Thiết kế và sử dụng các prompt phù hợp cho từng mục đích.",
+        "Bước 5: Đánh giá, chỉnh sửa và tích hợp kết quả AI - Chọn lọc các gợi ý phù hợp từ AI. Đối chiếu với tài liệu học thuật và trải nghiệm cá nhân. Viết lại toàn bộ nội dung bằng lời của chính mình.",
+        "Bước 6: Minh bạch hóa việc sử dụng AI - Ghi rõ công cụ AI đã dùng, mục đích sử dụng và mức độ can thiệp. Chịu trách nhiệm hoàn toàn về nội dung và lập luận cuối cùng.",
       ],
-      tools: ["Password Manager", "2FA Apps", "Turnitin", "[Thêm công cụ khác]"],
+      tools: ["ChatGPT", "Grammarly", "Turnitin"],
     },
     analysis: {
       strengths: [
