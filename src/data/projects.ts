@@ -307,9 +307,12 @@ export const projectsData: Project[] = [
     summary:
       "Bài tập tập trung phân tích việc sử dụng trí tuệ nhân tạo một cách có trách nhiệm trong học tập và nghiên cứu học thuật. Thông qua việc tìm hiểu bối cảnh chung tại các trường đại học Việt Nam, phân tích trường hợp cụ thể của Trường Đại học Anh Quốc Việt Nam (BUV) và thực hiện một nhiệm vụ học tập có sử dụng AI, tôi làm rõ ranh giới giữa hỗ trợ hợp lý và gian lận học thuật. Bài tập giúp tôi nhận thức sâu hơn về đạo đức, liêm chính học thuật và vai trò kiểm soát của người học khi ứng dụng AI trong môi trường đại học.",
     objectives: [
-      "[Mục tiêu 1: Hiểu về an toàn thông tin cá nhân]",
-      "[Mục tiêu 2: Nhận biết và phòng tránh rủi ro mạng]",
-      "[Mục tiêu 3: Tuân thủ liêm chính học thuật]",
+      "Hiểu về an toàn thông tin cá nhân",
+      "Nhận biết và phòng tránh rủi ro mạng",
+      "Tuân thủ liêm chính học thuật",
+      "Sử dụng AI đúng mục đích liêm chính học thuật",
+      "Có ý thức việc sử dụng AI trong học tập và đời sống hàng ngày",
+      "Chọn lọc sử dụng dữ liệu hợp lý",
     ],
     process: {
       steps: [
