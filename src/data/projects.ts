@@ -211,6 +211,10 @@ export const projectsData: Project[] = [
       tools: ["Discord", "Trello", "Google Drive", "Google Docs", "Google Slides"],
     },
     evidence: [project4Img1, project4Img2, project4Img3, project4Img4, project4Img5, project4Img6, project4Img7, project4Img8],
+    document: {
+      name: "Bài 4 - Chấm chéo.docx",
+      url: "/documents/project4-doc.docx",
+    },
     analysis: {
       strengths: [
         "[Điểm mạnh 1]",
