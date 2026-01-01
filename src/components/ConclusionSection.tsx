@@ -60,6 +60,14 @@ const ConclusionSection = () => {
                       <CheckCircle className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
                       <span>Hiểu biết về liêm chính học thuật trong học tập và cuộc sống</span>
                     </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
+                      <span>Hiểu biết những không gian dữ liệu kĩ thuật số</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
+                      <span>Biết nhiều công cụ làm việc nhóm hơn, đa luồng hơn</span>
+                    </li>
                   </ul>
                 </div>
                 <div className="p-4 rounded-lg bg-accent">
