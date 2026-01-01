@@ -177,9 +177,8 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
             {/* Document Upload Slot */}
             {project.document ? (
               <a
-                href={`https://docs.google.com/gview?url=${window.location.origin}${project.document.url}&embedded=true`}
-                target="_blank"
-                rel="noopener noreferrer"
+                href={project.document.url}
+                download={project.document.name}
                 className="p-4 rounded-lg bg-accent border border-border flex items-center gap-4 hover:bg-accent/80 transition-colors cursor-pointer group"
               >
                 <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
@@ -189,7 +188,7 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
                   <p className="font-medium text-foreground group-hover:text-primary transition-colors">
                     {project.document.name}
                   </p>
-                  <p className="text-sm text-muted-foreground">Nhấn để xem tài liệu</p>
+                  <p className="text-sm text-muted-foreground">Nhấn để tải xuống và mở bằng Word</p>
                 </div>
               </a>
             ) : (
