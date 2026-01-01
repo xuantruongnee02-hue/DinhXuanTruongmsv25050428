@@ -67,7 +67,7 @@ const AboutSection = () => {
               <ul className="space-y-3 text-muted-foreground">
                 <li className="flex items-start gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0" />
-                  <span>Mục tiêu 1 – Phát triển kỹ năng số: Tôi muốn biến kỹ năng số từ "biết dùng" thành "dùng có chiến lược", biết tìm đúng thông tin, sắp xếp dữ liệu khoa học và tạo ra sản phẩm số mà người khác có thể hiểu và sử dụng ngay.</span>
+                  <span>Mục tiêu 1 – Kỹ năng số: Tôi muốn sử dụng kỹ năng số một cách có chiến lược: tìm đúng thông tin, tổ chức dữ liệu khoa học và trình bày sản phẩm rõ ràng. Điều này giúp tôi học hiệu quả hơn và tránh tiếp cận thông tin một cách cảm tính.</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0" />
