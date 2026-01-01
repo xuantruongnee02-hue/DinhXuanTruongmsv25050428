@@ -165,7 +165,7 @@ export const projectsData: Project[] = [
         "Chưa minh họa thêm bằng trích đoạn câu trả lời AI để tăng tính trực quan",
         "Có thể mở rộng thêm một tác vụ thực tế khác (ví dụ: viết kế hoạch học tập, tạo đề cương bài học)",
       ],
-      ifRedone: "",
+      ifRedone: "Tôi dành nhiều thời gian và công sức làm thêm, nghiên cứu thêm về cách viết prompt chi tiết cụ thể hơn",
       progress: "Nhận thức rõ rằng chất lượng kết quả AI phụ thuộc trực tiếp vào cách đặt prompt. Biết cách chuyển từ prompt mơ hồ sang prompt có mục tiêu, cấu trúc và đối tượng rõ ràng. Hình thành kỹ năng sử dụng AI có kiểm soát, có chiến lược, không dùng AI một cách cảm tính như trước.",
     },
     aiUsage: {
