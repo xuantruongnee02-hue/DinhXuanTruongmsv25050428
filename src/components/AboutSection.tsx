@@ -67,7 +67,8 @@ const AboutSection = () => {
               <ul className="space-y-3 text-muted-foreground">
                 <li className="flex items-start gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0" />
-                  <span>[Mục tiêu 1: Phát triển kỹ năng số nào?]</span>
+                  <span>Mục tiêu 2 – Chủ động tiếp cận công nghệ
+Thay vì để công nghệ dẫn dắt, tôi đặt mục tiêu học cách lựa chọn và làm chủ công cụ phù hợp cho từng bài toán học tập, từ làm việc nhóm đến sáng tạo nội dung, dựa trên nhu cầu thực tế chứ không theo xu hướng.</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0" />
@@ -75,7 +76,8 @@ const AboutSection = () => {
                 </li>
                 <li className="flex items-start gap-2 text-sm">
                   <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0" />
-                  <span>Mục tiêu 3 – Ứng dụng AI trong học tập: Tôi xem AI như một "đối tác tư duy" chứ không phải công cụ làm hộ bài, dùng AI để mở rộng góc nhìn, thử nghiệm ý tưởng và tối ưu quá trình học, đồng thời luôn kiểm soát, kiểm chứng và chịu trách nhiệm với kết quả cuối cùng.</span>
+                  <span>
+                </span>
                 </li>
               </ul>
             </CardContent>
