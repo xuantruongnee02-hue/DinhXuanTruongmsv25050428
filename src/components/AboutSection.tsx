@@ -1,12 +1,13 @@
 import { User, Target, Lightbulb, Heart, Code, Rocket } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { useScrollAnimation } from "@/hooks/use-scroll-animation";
-
 const AboutSection = () => {
-  const { ref, isVisible, getAnimationClasses } = useScrollAnimation(0.1, 'fade-up');
-
-  return (
-    <section id="about" className="py-20 md:py-32 bg-background">
+  const {
+    ref,
+    isVisible,
+    getAnimationClasses
+  } = useScrollAnimation(0.1, 'fade-up');
+  return <section id="about" className="py-20 md:py-32 bg-background">
       <div className="container mx-auto px-4" ref={ref}>
         {/* Section Header */}
         <div {...getAnimationClasses(isVisible, 'zoom-in', 0)} className={getAnimationClasses(isVisible, 'zoom-in', 0).className + " text-center mb-16"}>
@@ -23,10 +24,7 @@ const AboutSection = () => {
         {/* Main Content Grid */}
         <div className="grid lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {/* Profile Card */}
-          <Card 
-            className={`lg:row-span-2 bg-card border-border shadow-lg hover:shadow-xl hover:-translate-y-2 ${getAnimationClasses(isVisible, 'fade-right', 100).className}`}
-            style={getAnimationClasses(isVisible, 'fade-right', 100).style}
-          >
+          <Card className={`lg:row-span-2 bg-card border-border shadow-lg hover:shadow-xl hover:-translate-y-2 ${getAnimationClasses(isVisible, 'fade-right', 100).className}`} style={getAnimationClasses(isVisible, 'fade-right', 100).style}>
             <CardContent className="p-8">
               {/* Avatar Placeholder */}
               <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-br from-primary to-chart-1 flex items-center justify-center animate-pulse">
@@ -61,7 +59,9 @@ const AboutSection = () => {
                     <p className="font-medium">Kỹ năng quan tâm</p>
                     <div className="text-sm text-muted-foreground space-y-1">
                       <p>- Kĩ năng viết code, Tool, Dev</p>
-                      <p>- Thực hành với Excel, Word, PPT</p>
+                      <p>​Thực hành với VScode, Github, Python, Cursor, Node...
+
+          </p>
                       <p>- Viết câu prompt AI</p>
                       <p>- Kĩ năng lọc và phân tích dữ liệu internet</p>
                     </div>
@@ -72,10 +72,7 @@ const AboutSection = () => {
           </Card>
 
           {/* Goals Card */}
-          <Card 
-            className={`bg-card border-border shadow-lg hover:shadow-xl hover:-translate-y-2 ${getAnimationClasses(isVisible, 'fade-down', 200).className}`}
-            style={getAnimationClasses(isVisible, 'fade-down', 200).style}
-          >
+          <Card className={`bg-card border-border shadow-lg hover:shadow-xl hover:-translate-y-2 ${getAnimationClasses(isVisible, 'fade-down', 200).className}`} style={getAnimationClasses(isVisible, 'fade-down', 200).style}>
             <CardContent className="p-8">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center">
@@ -101,10 +98,7 @@ const AboutSection = () => {
           </Card>
 
           {/* Portfolio Purpose Card */}
-          <Card 
-            className={`bg-card border-border shadow-lg hover:shadow-xl hover:-translate-y-2 ${getAnimationClasses(isVisible, 'fade-left', 300).className}`}
-            style={getAnimationClasses(isVisible, 'fade-left', 300).style}
-          >
+          <Card className={`bg-card border-border shadow-lg hover:shadow-xl hover:-translate-y-2 ${getAnimationClasses(isVisible, 'fade-left', 300).className}`} style={getAnimationClasses(isVisible, 'fade-left', 300).style}>
             <CardContent className="p-8">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-12 h-12 rounded-xl bg-chart-1/10 flex items-center justify-center">
@@ -130,10 +124,7 @@ const AboutSection = () => {
           </Card>
 
           {/* Personal Statement */}
-          <Card 
-            className={`lg:col-span-2 bg-gradient-to-br from-primary/5 to-chart-1/5 border-primary/20 shadow-lg hover:shadow-2xl ${getAnimationClasses(isVisible, 'blur', 400).className}`}
-            style={getAnimationClasses(isVisible, 'blur', 400).style}
-          >
+          <Card className={`lg:col-span-2 bg-gradient-to-br from-primary/5 to-chart-1/5 border-primary/20 shadow-lg hover:shadow-2xl ${getAnimationClasses(isVisible, 'blur', 400).className}`} style={getAnimationClasses(isVisible, 'blur', 400).style}>
             <CardContent className="p-8">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center">
@@ -153,8 +144,6 @@ const AboutSection = () => {
           </Card>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default AboutSection;
