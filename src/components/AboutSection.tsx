@@ -61,7 +61,7 @@ const AboutSection = () => {
                     <p className="font-medium">Kỹ năng quan tâm</p>
                     <div className="text-sm text-muted-foreground space-y-1">
                       <p>- Kĩ năng viết code, Tool, Dev</p>
-                      <p>- Thực hành với Excel, Word, PPT</p>
+                      <p>- Thực hành với VSCode, GitHub, Python, Cursor</p>
                       <p>- Viết câu prompt AI</p>
                       <p>- Kĩ năng lọc và phân tích dữ liệu internet</p>
                     </div>
